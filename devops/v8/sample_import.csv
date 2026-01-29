@@ -1,0 +1,4 @@
+NOME_EXCEL,EMAIL_EXCEL,NIF_EXCEL,TELEMOVEL_EXCEL,GENERO_EXCEL,TIPO_DOC_EXCEL,NUM_DOC_EXCEL,SIT_PROF_EXCEL,QUALIFICACAO_EXCEL,CURSO_EXCEL,DATA_INTERESSE_EXCEL,DIAGNOSTICO_EXCEL
+"João Exemplo","joao.exemplo@test.com","123456789","910000000","Masculino","CC","11111111","Empregado","Licenciatura","Excel Iniciante","2026-01-27","Nível 3"
+"Maria Teste","maria.teste@test.com","987654321","920000000","Feminino","Passaporte","P123456","Desempregado","12º Ano","Curso Fantasma","",""
+"Carlos Dados","carlos.dados@test.com","555555555","930000000","Outro","CC","99999999","Estudante","Mestrado","Word Avançado","2026-01-01","Nível 5 - Avançado"

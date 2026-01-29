@@ -1,10 +1,10 @@
 # Guia Mestre de Implementação: Academia Digital (SGUF v7.0)
 
-**Versão:** 1.0  
-**Data:** 18 de Janeiro de 2026  
+**Versão:** 2.0 (V8 Update)
+**Data:** 26 de Janeiro de 2026  
 **Contexto:** Construção de raiz da aplicação central de gestão formativa usando Oracle APEX.  
 **Público-Alvo:** Desenvolvedores e Implementadores (Nível Júnior a Sénior).  
-**Modelo de Dados:** v7.0 (Unified & Expanded).
+**Modelo de Dados:** v8.0 (Includes Communication & Staging).
 
 ---
 
@@ -196,6 +196,84 @@ O desenvolvimento segue uma lógica **"Data-First"**: primeiro constrói-se a es
 2.  **Capítulo 7 (Admin):** Validação de Dossier Técnico-Pedagógico.
 
 ### 📝 Notas de Validação
-*   O modelo de "Contrato Pedagógico" (`Obrigatorio='S'`) foi validado e distingue-se da atribuição de Medalhas.
-*   A UX de gestão de associações foi uniformizada para o padrão "Editable Grid".
 *   Confirmada a flexibilidade da arquitetura "Inscrição vs Matrícula" para gerir preferências de turma vs curso.
+
+---
+
+## Capítulo 9: Comunicação e Notificações (V8)
+**Objetivo:** Implementar sistema de templates de email (com suporte a *overrides* por curso) e automatizar o ciclo de vida.
+
+### Etapa 9.1: Estrutura de Comunicação
+*   **Tarefa 9.1.1:** Criar e executar script SQL `08_Comunicacao.sql`.
+*   **Tarefa 9.1.2:** Tabelas: `Modelos_Comunicacao` (Templates), `Log_Comunicacoes` (Fila).
+*   **Tarefa 9.1.3:** PL/SQL: Pacote `PKG_COMUNICACAO` com lógica de *placeholders* e fila.
+
+### Etapa 9.2: Gestão de Templates e Envio
+*   **Tarefa 9.2.1:** Criar Página "Modelos de Comunicação" (Admin).
+    *   *Funcionalidade:* Editor Rich Text para templates HTML. Suporte a hierarquia (Global vs Curso).
+*   **Tarefa 9.2.2:** Criar Wizard "Notificar Turma".
+    *   *Funcionalidade:* Selecionar Template -> Agendar Data -> Escolher Alunos -> Enviar.
+
+### Etapa 9.3: Automação
+*   **Tarefa 9.3.1:** Configurar Automation "Processar Fila" (15 em 15 mins).
+*   **Guia Detalhado:** Ver `01_Guia_Implementacao_Comunicacao.md`.
+
+---
+
+## Capítulo 10: Melhorias de UX e Feedback (V8)
+**Objetivo:** Refinamento da aplicação com base no feedback de testes (Jan 2026).
+
+### Etapa 10.1: Polimento de Interfaces
+*   **Tarefa 10.1.1:** Implementar páginas para gestão de Domínios (Lookups).
+*   **Tarefa 10.1.2:** Melhorar Dashboard do Formador (Links 'Abrir', Remover Sort default).
+*   **Tarefa 10.1.3:** Reestruturar página de Sessões (Header, Switch Presença, Auto-cálculo horas).
+
+### Etapa 10.2: Novas Funcionalidades
+*   **Tarefa 10.2.1:** Gestão Global de Matrículas (Report Consolidado).
+*   **Tarefa 10.2.2:** Automação de Faturação (Gerar Rascunhos).
+*   **Tarefa 10.2.3:** Checklist Visual para Dossier Técnico-Pedagógico.
+*   **Guia Detalhado:** Ver `02_Guia_Melhorias_Feedback.md`.
+
+---
+
+## Capítulo 11: Importação e Tratamento de Dados (Import V8)
+**Objetivo:** Mecanismo robusto para carregar Excel de candidaturas com validação prévia ("Staging").
+
+### Etapa 11.1: Estrutura de Staging
+*   **Tarefa 11.1.1:** Criar e executar script SQL `08_Staging.sql`.
+*   **Tarefa 11.1.2:** Tabela `Staging_Importacao` e Package `PKG_IMPORTACAO` (Validação de emails, cursos, criação de datas default).
+*   **Tarefa 11.1.3:** Suporte a campo `Diagnostico_Respostas` (JSON).
+
+### Etapa 11.2: Interface de Importação
+*   **Tarefa 11.2.1:** Configurar "Data Load Definition" (Mapeamento CSV > Tabela).
+*   **Tarefa 11.2.2:** Criar Wizard de Upload.
+*   **Tarefa 11.2.3:** Criar "Cockpit de Validação" (Interactive Grid Editável) para corrigir erros (Curso inexistente, etc.) antes de processar.
+*   **Guia Detalhado:** Ver `03_Guia_Implementacao_Importacao.md`.
+
+---
+
+## Anexo: Log de Execução e Planeamento
+*Estado do Projeto em 29 de Janeiro de 2026 (Fase V8)*
+
+### ✅ Fases Concluídas (Core V7 & Design V8)
+1.  **Fundação V7:** Modelo de dados Base, Catálogo e Logística operacionais.
+2.  **Inscrição V7:** Fluxo de Candidatura vs Matrícula implementado.
+3.  **Design V8 (Planeamento & Arquitetura):**
+    *   **Comunicação:** Modelo de dados (`08_Comunicacao.sql`) e estratégia de Overrides desenhada.
+    *   **Importação:** Estratégia "Staging Table" desenhada, SQL (`08_Staging.sql`) criado e workflow de correção de erros definido.
+    *   **UX Domínios:** Refatorização para "Seletor Dinâmico" planeada.
+    *   **UX Matrículas:** Design da "Visão Global" e melhorias no Bulk Enrollment.
+
+### 🚧 Em Curso / Próximos Passos (Implementação APEX V8)
+1.  **Importação de Dados (Prioritário):**
+    *   Executar `08_Staging.sql`.
+    *   Criar Data Load Definition e Páginas no APEX (Seguir Guia 03).
+    *   Testar com `sample_import.csv`.
+2.  **Comunicação:**
+    *   Implementar páginas de Templates e Envio de Email (Seguir Guia 08/01).
+3.  **Melhorias UX:**
+    *   Implementar gestão de Domínios e Dashboards melhorados.
+
+### 📝 Notas de Validação
+*   Confirmada a necessidade de tratamento de erros no upload (ex: cursos mal escritos no Excel). A solução "Staging" resolve isto.
+*   Incluído campo de Diagnóstico no import para não perder dados dos questionários.
