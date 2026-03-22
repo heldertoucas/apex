@@ -1,81 +1,108 @@
 # Manual de Implementação APEX (v9) - Capítulo 6: Avaliação, Administração e Importação
 **Aplicação:** SGUF v9 (Passaporte Competências Digitais)  
-**Objetivo:** Fechar o ciclo letivo. Registar as notas, reclamar os Badges, garantir o Dossier Pedagógico, controlar Faturas e gerir a importação massiva de dados por Excel.
+**Objetivo:** Fechar o ciclo letivo. Registar avaliações, atribuir Medalhas (Badges), gerir o Dossier Pedagógico, controlar faturas de formadores e executar a importação massiva de dados via Excel.
 
 ---
 
-## 1. Avaliação Pedagógica e Badges
-A Turma acabou. É hora do formador (ou o Coordenador) lançar as notas dos módulos e atestar as competências.
+## 1. Avaliação Pedagógica e Badges (Gamification)
+Registo do sucesso dos formandos e atribuição automática de micro-credenciais digitais.
 
-### 1.1. Lançamento de Notas por Módulo
-Pode ser feito diretamente na Ficha da Turma ou numa página dedicada para o Formador.
-1. **Create Page** > **Interactive Grid**.
-2. **Page Name:** `Pauta de Avaliação`.
-3. **Table Name:** `AVALIACOES_MODULO`.
-4. **Where Clause:** `ID_TURMA = :PXX_ID_TURMA`.
-5. **Configuração da Grelha:**
-   * Ativar Edição.
-   * `ID_ALUNO` -> Popup LOV (com todos os alunos dessa turma).
-   * `ID_MODULO` -> Select List (com os módulos alocados a esse curso específico).
-   * Transforme `Data_Avaliacao` para ter como *Default* o dia de hoje (`SYSDATE`).
+### 1.1. Criar a Pauta de Avaliação
+1.  No App Builder, clique em **Create Page** > **Report** > **Interactive Grid**.
+2.  **Page Name:** `Pauta de Avaliação`.
+3.  **Data Source > Table Name:** `AVALIACOES_MODULO`.
+4.  **Editing > Enable Editing:** **On**.
+5.  Clique em **Create Page**.
+6.  **Configurar Colunas de Contexto:**
+    *   Selecione a coluna `ID_ALUNO`. Mude **Type** para `Popup LOV`.
+        *   **LOV > SQL Query:** `SELECT e.Nome_Completo d, e.ID_Entidade r FROM Entidades e JOIN Matriculas m ON e.ID_Entidade = m.ID_Aluno WHERE m.ID_Turma = :P6_ID_TURMA`.
+    *   Selecione `ID_MODULO`. Mude **Type** para `Select List`.
+        *   **LOV > SQL Query:** `SELECT m.Nome d, m.ID_Modulo r FROM Modulos m JOIN Turmas t ON m.ID_Curso = t.ID_Curso WHERE t.ID_Turma = :P6_ID_TURMA`.
+    *   Selecione `RESULTADO`. Mude **Type** para `Select List`.
+        *   **LOV > Static Values:** `STATIC:Aprovado;APROVADO,Reprovado;REPROVADO,Faltou;FALTOU`.
 
-### 1.2. Painel de Badges Conquistados (Gamification)
-Um ecrã onde o utilizador consulta quem tem o quê.
-1. **Create Page** > **Interactive Report**.
-2. **Page Name:** `Medalheiro Digital`.
-3. **Table Name:** `BADGES_CONQUISTADOS`.
-4. Faça Join visual com `Entidades` (Aluno), `Turmas` (Onde conquistou) e `Catalogo_Medalhas` (O que ganhou) para apresentar uma lista rica e com imagens dos badges no APEX.
+### 1.2. O Medalheiro Digital (Visual)
+1.  **Create Page** > **Report** > **Cards**.
+2.  **Page Name:** `Medalheiro Digital`.
+3.  **Source > SQL Query:**
+    ```sql
+    SELECT 
+        e.Nome_Completo as NOME_ALUNO,
+        cm.Nome as NOME_MEDALHA,
+        cm.URL_IMAGEM,
+        bc.Data_Conquista,
+        t.Codigo_Turma
+    FROM BADGES_CONQUISTADOS bc
+    JOIN Entidades e ON bc.ID_Aluno = e.ID_Entidade
+    JOIN Catalogo_Medalhas cm ON bc.ID_Medalha = cm.ID_Medalha
+    JOIN Turmas t ON bc.ID_Turma = t.ID_Turma;
+    ```
+4.  **Attributes > Appearance:**
+    *   **Title Column:** `NOME_MEDALHA`
+    *   **Body Column:** `NOME_ALUNO`
+    *   **Subtext Column:** `Data: &DATA_CONQUISTA. (Turma: &CODIGO_TURMA.)`
+    *   **Icon Source:** `Image URL` | **URL Column:** `URL_IMAGEM`.
 
 ---
 
-## 2. Dossier Pedagógico e Faturação (Burocracia)
-A visão administrativa do processo.
+## 2. Dossier Pedagógico e Administração
+Controlo documental e financeiro da turma.
 
 ### 2.1. Checklist do Dossier da Turma
-1. Crie uma **Interactive Grid** na Ficha de Turma.
-2. **Table:** `ITENS_DOSSIER_TURMA`.
-3. **O Botão Mágico "Inicializar Dossier":**
-   Crie um botão na Ficha de Turma que executa um bloco PL/SQL simples para gerar as linhas para os documentos obrigatórios baseados na tabela `Tipos_Documento_Dossier`:
-   ```sql
-   INSERT INTO Itens_Dossier_Turma (ID_Turma, ID_Tipo_Doc, Entregue)
-   SELECT :PXX_ID_TURMA, ID_Tipo_Doc, 'N'
-   FROM Tipos_Documento_Dossier
-   WHERE Obrigatorio = 'S'
-     AND ID_Tipo_Doc NOT IN (SELECT ID_Tipo_Doc FROM Itens_Dossier_Turma WHERE ID_Turma = :PXX_ID_TURMA);
-   ```
+1.  Na página **Ficha de Turma** (Cap. 4), crie uma sub-região tipo **Interactive Grid**.
+2.  **Name:** `Documentação do Dossier`.
+3.  **Source > Table Name:** `ITENS_DOSSIER_TURMA` | **Where:** `ID_TURMA = :P4_ID_TURMA`.
+4.  **Criar Botão de Inicialização:**
+    *   Crie um **Button** chamado `BT_GERAR_DOSSIER`.
+    *   Crie um **Process** (Execute Code) associado ao botão:
+    ```sql
+    INSERT INTO Itens_Dossier_Turma (ID_Turma, ID_Tipo_Doc, Entregue)
+    SELECT :P4_ID_TURMA, ID_Tipo_Doc, 'N'
+    FROM Tipos_Documento_Dossier
+    WHERE Obrigatorio = 'S'
+      AND ID_Tipo_Doc NOT IN (SELECT ID_Tipo_Doc FROM Itens_Dossier_Turma WHERE ID_Turma = :P4_ID_TURMA);
+    ```
 
-### 2.2. Controlo de Faturas
-1. **Create Page** > **Interactive Report com Form**.
-2. **Name:** `Controlo de Faturas` e `Editar Fatura`.
-3. **Table:** `FATURAS_FORMADORES`.
-4. Na Grelha, mascare a coluna `Valor` em Reais ou Euros usando a Format Mask (ex: `FML999G999G990D00`). Mostre o estado do pagamento criando uma lógica visual (`Data_Pagamento IS NULL -> Pendente`).
-
-### 2.3. Gestão de Equipamentos (Inventário)
-Para registar as entregas de Portáteis/Hotspots à Turma.
-1. **Create Page** > **Report with Form**.
-2. **Page Name:** `Equipamentos Alocados` e Form `Registar Entrega`.
-3. **Table:** `EQUIPAMENTOS_ALOCADOS`.
-4. No Form gerado, transforme `PXX_ID_TURMA` num Popup LOV e `PXX_ID_TIPO_EQUIPAMENTO` num Select List para facilitar a vida ao técnico de logística.
-
-### 2.4. Questionários de Satisfação (Feedback)
-1. Para recolher o feedback final, o coordenador precisa do Link para o questionário externo (Ex: Microsoft Forms ou Typeform).
-2. Na Master Page (ou Tabela) `Turmas`, garanta a existência de uma coluna `URL_Questionario`.
-3. Exponha esse `URL_Questionario` na listagem da Turma ou use-o no Capítulo 5 (Automação de E-mails) como uma variável mágica `#LINK_SATISFACAO#` a ser enviada no último dia de aulas.
+### 2.2. Controlo Financeiro (Faturas)
+1.  **Create Page** > **Report** > **Interactive Report**.
+2.  **Page Name:** `Controlo de Faturas`.
+3.  **Data Source > Table Name:** `FATURAS_FORMADORES`.
+4.  **Include Form Page:** **On**.
+5.  **Ajuste de Formatação:** No Page Designer, selecione a coluna `VALOR` e em **Appearance > Format Mask**, escolha uma máscara de moeda (ex: `FML999G999G990D00`).
 
 ---
 
-## 3. Integração em Massa: A Nova Página de Staging
-Quando temos 300 inscrições numa folha de Excel, não usamos formulários. Usamos o nativo Data Loading do APEX ligado ao nosso "Purgatório" (Staging).
+## 3. Importação Massiva (Data Loading)
+Workflow para carregar centenas de inscrições a partir de um ficheiro Excel/CSV.
 
-1. No APEX, vá a **Shared Components** > **Data Load Definitions**.
-2. Crie uma nova definição apontando para a tabela `STAGING_IMPORTACAO`. 
-3. Mapeie as 12 colunas base (Nome_Excel, Email_Excel, Curso_Excel, etc.).
-4. Vá ao **App Builder** > **Create Page** > **Data Loading**.
-5. Selecione a Definição que acabou de criar.
-6. **O Cockpit de Correção:**
-   * Crie uma página extra (**Interactive Grid** editável) baseada na `STAGING_IMPORTACAO`.
-   * **Highlight:** Pinte a linha de vermelho se o campo `Mensagem_Erro` da tabela contiver texto.
-   * Crie um botão **PROCESSAR IMPORTAÇÃO** no topo que executa um bloco de validação (ou PKG_IMPORTACAO se o tiver gerado no motor) para transpor quem não tiver erro para a tabela principal de `Inscricoes` e `Entidades`.
+### 3.1. Configurar Definição de Dados
+1.  Vá a **Shared Components** > **Data Load Definitions**.
+2.  Clique em **Create**. **Name:** `IMPORT_INSCRICOES`.
+3.  **Target Table:** `STAGING_IMPORTACAO`.
+4.  Mapeie as colunas do seu Excel (Nome, Email, NIF, Curso) para as colunas da tabela de staging.
 
-**Conclusão da Biblioteca de Guias v9:**
-Parabéns. Seguindo estes 6 módulos, tem arquitetada e desenhada a aplicação **Passaporte Digital SGUF v9**. Desde a conceção da pessoa, aos catálogos, operação formativa, automação de disparo de emails diários e fecho de notas no SIGO. O Sistema está operacional!
+### 3.2. Criar a Página de Upload
+1.  **Create Page** > **Data Loading**.
+2.  **Definition:** Selecione `IMPORT_INSCRICOES`.
+3.  **Page Name:** `Importação de Candidatos (Excel)`.
+4.  Clique em **Create Page**.
+
+### 3.3. Cockpit de Validação e Processamento
+1.  Crie uma página de **Interactive Grid** editável baseada na tabela `STAGING_IMPORTACAO`.
+2.  **Destaque de Erros:** No separador **Attributes** da Grid, crie um **Highlight** automático:
+    *   **Name:** `Erro de Validação`.
+    *   **Condition:** `MENSAGEM_ERRO IS NOT NULL`.
+    *   **Background Color:** Vermelho claro.
+3.  **Botão Finalizar Importação:** Crie um botão que executa o processo de migração de Staging para as tabelas reais (`Entidades` e `Inscricoes`), chamando o seu package de importação ou um loop PL/SQL de validação.
+
+---
+
+## Done When
+- [ ] A Pauta de Avaliação permite filtrar alunos e módulos dinamicamente por turma.
+- [ ] O Medalheiro Digital exibe os cartões com as imagens das medalhas conquistadas.
+- [ ] O botão "Gerar Dossier" popula automaticamente a lista de documentos obrigatórios para a turma.
+- [ ] Os valores monetários nas faturas aparecem formatados corretamente com o símbolo de moeda.
+- [ ] O processo de Data Loading carrega dados para a tabela de Staging e o Cockpit permite corrigir erros antes da gravação final.
+
+**Conclusão Final (v9):**
+Parabéns! Completou a implementação do **SGUF v9 - Passaporte Digital**. O sistema cobre agora todo o ciclo: da importação massiva de candidatos, passando pela triagem híbrida, gestão pedagógica, automação de comunicações e fecho administrativo com avaliação e badges. A aplicação está pronta para produção!
