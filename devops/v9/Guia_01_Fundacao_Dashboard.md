@@ -44,6 +44,12 @@ No ecrã "Create an Application":
 
 ---
 
+> [!IMPORTANT]
+> **PARE AQUI!** Antes de avançar para a criação de LOVs ou do Dashboard, deve agora abrir e executar o **`Guia_00_MultiPrograma_FUTURO.md`**.
+> Este passo é crítico para configurar a filtragem global (Contexto de Programa) que será utilizada em todas as páginas e componentes que irá criar a seguir.
+
+---
+
 ## 3. Preparação dos Domínios (List of Values - LOVs)
 
 O APEX usa *Shared Components* para não passarmos a vida a escrever `SELECT * FROM Tipos_Genero`. Vamos mapear as tabelas de Lookup criadas no script `01_lookup_tables.sql` da sua base de dados v9.

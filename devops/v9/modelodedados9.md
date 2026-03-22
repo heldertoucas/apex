@@ -58,6 +58,7 @@
 - `Nome_Completo`, `Telemovel`, `Data_Nascimento`, `ID_Genero` (FK)
 - Dados Profissionais: `Profissao`, `Entidade_Empregadora`, etc.
 - **[NOVO v9]** `Aceita_Newsletter` (S/N) - Autenticação específica de marketing separada do `Consentimento_RGPD`.
+- **[EXTENSÃO FUTURO]** `UO` (Unidade Orgânica), `Tem_Portatil` (S/N).
 
 #### 6. Entidades Acessórias
 *   `Papeis_Entidade` (ADMIN, FORMADOR, FORMANDO, COORDENADOR).
@@ -76,7 +77,9 @@
 #### 8. `Inscricoes`
 *Candidaturas antes da efetivação.*
 - `ID_Inscricao` (PK), `ID_Curso` (FK), `ID_Entidade` (FK).
-- `Estado_Inscricao` ('PENDENTE', 'ACEITE', 'RECUSADA').
+- `ID_Programa` (FK) - Contexto Multi-Programa.
+- `Estado_Inscricao` ('PENDENTE', 'ACEITE', 'RECUSADA', 'NOMINADO', 'CONVIDADO', 'DIAGNOSTICADO', 'VALIDADO').
+- **[EXTENSÃO FUTURO]** `Prioridade_Inicial`, `Score_Diagnostico`, `Prioridade_Final`.
 
 #### 9. `Matriculas`
 *Inscrição do aluno na turma.*

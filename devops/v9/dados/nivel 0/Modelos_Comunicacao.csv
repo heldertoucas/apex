@@ -1,0 +1,7 @@
+CODIGO_REF;ASSUNTO;CONTEXTO;ATIVO
+FUTURO_INVITE_DIAGNOSTICO;Convite: Realize o seu Diagnóstico de Competências Digitais (Programa FUTURO);ALUNO;S
+FUTURO_QUIZ_RECEIVED;Diagnóstico Recebido: Próximos Passos;ALUNO;S
+FUTURO_WAITING_LIST;Atualização de Estado: Lista de Espera;ALUNO;S
+BOAS_VINDAS;Bem-vindo à Academia: #CURSO#;TURMA;S
+LEMBRETE_INICIO;Lembrete: O teu curso começa amanhã!;TURMA;S
+AGRADECIMENTO_FIM;Obrigado por participares: #CURSO#;TURMA;S
