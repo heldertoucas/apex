@@ -1,0 +1,5 @@
+﻿CODIGO;DESCRICAO;ORDEM;ATIVO
+NIV_0;Nível 0 - Sem conhecimentos;1;S
+NIV_I;Nível I - Conhecimentos de nível Inicial;2;S
+NIV_II;Nível II - Conhecimentos de nível Intermédio;3;S
+NIV_III;Nível III - Conhecimentos de nível Avançado;4;S

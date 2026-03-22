@@ -1,0 +1,5 @@
+﻿CODIGO;NOME;DESCRICAO;PONTUACAO_BASE;ATIVO
+NIV_0;Sem proficiência;Nível 0 - Sem domínio da competência;0;S
+NIV_1;Proficiência introdutória;Nível 1 - Proficiência de nível introdutório;1;S
+NIV_2;Proficiência Intermédia;Nível 2 - Proficiência de nível Intermédio;2;S
+NIV_3;Proficiência Avançada;Nível 3 - Proficiência de nível Avançado;3;S
