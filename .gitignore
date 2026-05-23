@@ -8,5 +8,6 @@ ehthumbs.db
 Thumbs.db
 
 # Graphify
-**/graphify-out/
-graphify-out/
+graphify-out/manifest.json
+graphify-out/cost.json
+graphify-out/cache/

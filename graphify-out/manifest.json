@@ -1,0 +1,492 @@
+{
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\00_DummyData.sql": {
+    "mtime": 1768949359.8791254,
+    "ast_hash": "847fedfe2e3e1e4713f954d8e5ddacc1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\01_Refactor_Competencias_MN.sql": {
+    "mtime": 1768912007.019097,
+    "ast_hash": "65ca0a10c8558ce0f67024fa2795c69b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\02C_Mailing_Lists.sql": {
+    "mtime": 1769120160.823856,
+    "ast_hash": "f6746de018386e0c7a26cd34a89e5f28",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\02_Refactor_Medalhas_MN.sql": {
+    "mtime": 1768946923.0836895,
+    "ast_hash": "f7b7ed587860ec0efb55b2376f3614eb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\04_Automacao_Cronograma.sql": {
+    "mtime": 1769120203.4281833,
+    "ast_hash": "650fbd7429c97764dfe1bc9114ee22f7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\04_DummyData_Logistica.sql": {
+    "mtime": 1769124020.4374049,
+    "ast_hash": "116c87fe52b8dac4ae3f412ac361a441",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\04_Operacoes.sql": {
+    "mtime": 1769123418.6047347,
+    "ast_hash": "b3afac51664b1dab2cfbe7b22396defa",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\05B_Inscricoes.sql": {
+    "mtime": 1769270936.3345172,
+    "ast_hash": "fe8f6a88893981913f7a846aa9c348d0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\05B_Pre_Inscricoes.sql": {
+    "mtime": 1769206459.8300955,
+    "ast_hash": "b7a902b25fc0567343e687f2aabbb916",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\05_DummyData_Inscricao.sql": {
+    "mtime": 1769271137.8914816,
+    "ast_hash": "da6da7b86e789461902a6cf6a69f6e92",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\05_Matriculas.sql": {
+    "mtime": 1769198173.71194,
+    "ast_hash": "cfd317d3f9bf14f7123f0054080e8ae6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\06_DummyData_Pedagogia.sql": {
+    "mtime": 1769362378.9399145,
+    "ast_hash": "4dc71b43ae8cab840a69b097940065b2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\06_Pedagogia.sql": {
+    "mtime": 1769343464.4427981,
+    "ast_hash": "9b0d077a0f4b7e070cc7c0c0ce3cf554",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\07_Admin.sql": {
+    "mtime": 1769383089.547056,
+    "ast_hash": "0366a40bcc39993ea7048673559d6d3d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\07_DummyData_Admin.sql": {
+    "mtime": 1769383098.1016936,
+    "ast_hash": "fb4ae7d1eaffc3cc589fe6e0341b53e5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\99_Diagnostico_Locais.sql": {
+    "mtime": 1769123337.4774942,
+    "ast_hash": "1d03e18cacdf1512b9d930506f52df60",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\99_Diagnostico_Lookups.sql": {
+    "mtime": 1769123546.5980444,
+    "ast_hash": "231fc9592f473728bea12ac596f5e350",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\99_Diagnostico_Schema_Total.sql": {
+    "mtime": 1769123892.8914871,
+    "ast_hash": "ebd51105ad7976e3e3782f69113017f3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\99_SeedData_All_Lookups.sql": {
+    "mtime": 1769124243.0813649,
+    "ast_hash": "1c5fc9be83ce51b4c7ff2553149cc84c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\08_Comunicacao.sql": {
+    "mtime": 1769438706.977453,
+    "ast_hash": "cd1b908725c866afbe685c238029ffe0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\08_Staging.sql": {
+    "mtime": 1769551886.4858458,
+    "ast_hash": "3151bc3733c89aa98024a30dbd9768a5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\extract_schema_info.sql": {
+    "mtime": 1769436533.3047473,
+    "ast_hash": "e7758961db71a5af2081e3b3a6f5a454",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\01_lookup_tables.sql": {
+    "mtime": 1773180683.533606,
+    "ast_hash": "6b055474c0e28130aa9b03d0c95adf6f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\02_core_catalog.sql": {
+    "mtime": 1773264421.935344,
+    "ast_hash": "f04c649f30a0d3e1922333528e04cd8f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\03_people.sql": {
+    "mtime": 1773180787.125618,
+    "ast_hash": "85facad97ab0a7cca26fb48d4401cded",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\04_ops_formativa.sql": {
+    "mtime": 1773180822.5234153,
+    "ast_hash": "181a8e4979fd8ebcc846dae506bbde06",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\05_eval_admin.sql": {
+    "mtime": 1773180859.1129875,
+    "ast_hash": "d6c4ca35499cda96d74f667fbc3b4a6a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\06_comunicacao.sql": {
+    "mtime": 1773180892.0963147,
+    "ast_hash": "87f272f73345d725a9f6985c373bf27b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\07_pkg_comunicacao.sql": {
+    "mtime": 1773180958.3262627,
+    "ast_hash": "2f0e3ff5aef843bb5c63826534cb31f7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\08_pkg_matriculas.sql": {
+    "mtime": 1773180988.076574,
+    "ast_hash": "d131c1471b447d46ad6fe92c73a0ce3f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\09_sync_prioridades_niveis.sql": {
+    "mtime": 1773260911.4913156,
+    "ast_hash": "cce129448ff9692259620437ae049b8b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\10_extensao_futuro.sql": {
+    "mtime": 1774221065.0435174,
+    "ast_hash": "3ade78527065c0fbde63b5661d4749cd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\dados\\csv_generator.py": {
+    "mtime": 1773261267.2628026,
+    "ast_hash": "aa780d44935fcfe4ff91cda0747cd690",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\dados\\generate_niveis_2_3.py": {
+    "mtime": 1773263548.6699388,
+    "ast_hash": "61255c8bd966136ed3d46d981d5312fd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\dados\\generate_nivel_0.py": {
+    "mtime": 1773267151.4789307,
+    "ast_hash": "8f517e33424bb9bbfad6ef717fea00e3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\dados\\generate_nivel_1.py": {
+    "mtime": 1773264473.0556543,
+    "ast_hash": "8fd2f488a5aad5c9ea7fcd2adfa30a1d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\dados\\Gerador_CSV.ps1": {
+    "mtime": 1779194558.2735577,
+    "ast_hash": "b14286480e2406a4c3263680162ffdf5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\GEMINI.md": {
+    "mtime": 1779194558.933523,
+    "ast_hash": "4b8d304c64f38a927aab0bd28fdaa36f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\conductor\\plan.md": {
+    "mtime": 1779194556.1393588,
+    "ast_hash": "d65f22ba97cb444200b7fde95d595370",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\01_Guia_Fase1_Fundacao.md": {
+    "mtime": 1768819069.5950246,
+    "ast_hash": "657731c954102e35348401f91f439753",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\02_Guia_Fase2_Backoffice.md": {
+    "mtime": 1768819069.6051967,
+    "ast_hash": "798dfa31bb059bf27a2da6b7429e45b0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\03_Guia_Fase3_Formador.md": {
+    "mtime": 1768819069.6256425,
+    "ast_hash": "ac7384957dca9ed93d79c7fa76eca590",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\04_Guia_Fase4_JornadaFormando.md": {
+    "mtime": 1768819069.6452138,
+    "ast_hash": "1f1fe00d34e481e32b77a17b71fbb61e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\05_Guia_Fase5_OperacoesAvancadas.md": {
+    "mtime": 1768819069.6767666,
+    "ast_hash": "a669f535199ad538506ecfa4ed6de29c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\06_Guia_Fase6_Automacao.md": {
+    "mtime": 1768819069.6767666,
+    "ast_hash": "68aaa1edf24914b86e4844e7e1847541",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\Experienciautilizador copy.md": {
+    "mtime": 1768819069.690081,
+    "ast_hash": "889e538e90f94bce313c1c124fcfe654",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\Experienciautilizador.md": {
+    "mtime": 1768819069.7054164,
+    "ast_hash": "d00666732cd241e6bad18c8858e0b55c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\GuiaExecucaoDesenvolvimento.md": {
+    "mtime": 1768819069.7430675,
+    "ast_hash": "427051e94b850cb616207eac9f30274f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\Modelodedados copy.md": {
+    "mtime": 1768819069.771323,
+    "ast_hash": "10cb894f25fdcab0b4b0a7fe0173bd75",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\Modelodedados.md": {
+    "mtime": 1768819069.773865,
+    "ast_hash": "10cb894f25fdcab0b4b0a7fe0173bd75",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\Modelodedados2.md": {
+    "mtime": 1768819069.8031764,
+    "ast_hash": "a5f79946c221713fc11aab8e03856864",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v5-6\\Experienciautilizador.md": {
+    "mtime": 1768819069.8085258,
+    "ast_hash": "d00666732cd241e6bad18c8858e0b55c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v5-6\\Modelodedados2.md": {
+    "mtime": 1768819069.8259218,
+    "ast_hash": "a5f79946c221713fc11aab8e03856864",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v5-6\\modelodedados4.md": {
+    "mtime": 1768819069.8259218,
+    "ast_hash": "fe6ab93836fe0cc6335ff72193f6aa06",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v5-6\\modelodedados6.md": {
+    "mtime": 1768819069.8511775,
+    "ast_hash": "3bbdb32b4e23ba8b64a3c034ae5b23a6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v5-6\\sugestoes_alteracao_modelo.md": {
+    "mtime": 1768819069.8556418,
+    "ast_hash": "98db58aa56dfddb76eafd7f1eff05f6a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\documentos.md": {
+    "mtime": 1768849509.4991224,
+    "ast_hash": "c017cfb18bf38a52f7cc5914bfa4c3ad",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Experienciautilizador7.md": {
+    "mtime": 1768955494.3535025,
+    "ast_hash": "41cbddaafcd6c82a8da9946feeb32996",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Auxiliar_01_Componentes_Partilhados.md": {
+    "mtime": 1768929279.78956,
+    "ast_hash": "bd417cb94274e36159a0315f978c00cc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_01_Fundacao.md": {
+    "mtime": 1768849509.4843614,
+    "ast_hash": "5a312116916aea0ee2f043da34c92630",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_02A_Melhorias_Pessoas.md": {
+    "mtime": 1768859731.7490368,
+    "ast_hash": "64bd885b818861f1bbdc29d6e7d1be99",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_02B_Refatorizacao_Pessoas.md": {
+    "mtime": 1768865927.682665,
+    "ast_hash": "b7581cdaf1a28367bd6ab87781c5082f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_02C_Mailing_Lists.md": {
+    "mtime": 1769120882.1930003,
+    "ast_hash": "3f538bbed8b8d89ff5ce9f65ac082d0f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_02_Pessoas.md": {
+    "mtime": 1768851141.9409842,
+    "ast_hash": "cac09b40f3d061988efd5e4db1bffae1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_03B_Catalogo_Refatorado.md": {
+    "mtime": 1768954720.134582,
+    "ast_hash": "50fdf1d4cee70c42642d9ed00122cfcf",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_03_Catalogo.md": {
+    "mtime": 1768856592.5038466,
+    "ast_hash": "de25731d2074fb951b32a9b2e7e8b0bc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_04_Logistica.md": {
+    "mtime": 1769123273.6065395,
+    "ast_hash": "8c1303d69155227b098a03f31d590d20",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_05_Inscricao.md": {
+    "mtime": 1769303859.8322601,
+    "ast_hash": "4a17fa93280cf80846d7dc7c97b5e145",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_06_Pedagogia.md": {
+    "mtime": 1769385796.1665769,
+    "ast_hash": "29c56fb11be55c4f4dc544351aefe271",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_07_Admin.md": {
+    "mtime": 1769384281.8153741,
+    "ast_hash": "eea2ca611e65356a0b15cfcc167f123b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Capitulo_08_UX_Final.md": {
+    "mtime": 1769385798.978323,
+    "ast_hash": "e4ba955a3b8091602cf8954d08556d6b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\Guia_Implementacao_App_Builder.md": {
+    "mtime": 1769385800.634864,
+    "ast_hash": "68821d5077781a9007ab270c5400ebc4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\modelodedados7.md": {
+    "mtime": 1768946910.1653304,
+    "ast_hash": "24b792719d03369a15175d8e4d6cdaae",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v7\\notas.md": {
+    "mtime": 1769387494.3445728,
+    "ast_hash": "50b9a0e09ff84d70544283124b89639a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\01_Guia_Implementacao_Comunicacao.md": {
+    "mtime": 1769438668.9057965,
+    "ast_hash": "6e1b318a2ba9db7f72c5c704d4a853f8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\02a_Guia_Gestao_Dominios.md": {
+    "mtime": 1769544297.7640977,
+    "ast_hash": "0064faa9c984231cdad8f071b00c6314",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\02b_Guia_Melhorias_Matriculas.md": {
+    "mtime": 1769545495.1846719,
+    "ast_hash": "6c5b5614a5387cb3aaffd66defaa23f3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\02_Guia_Melhorias_Feedback.md": {
+    "mtime": 1769440382.9055743,
+    "ast_hash": "afc13f6e1b6f2b1b5413594bcd79e372",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\03_Guia_Implementacao_Importacao.md": {
+    "mtime": 1769551898.4636037,
+    "ast_hash": "f94b79138f428425850aba2c018e796b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\03_Planeamento_Importacao.md": {
+    "mtime": 1769550275.6741655,
+    "ast_hash": "ca8bf8573723f18b04912284d31eba30",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\Guia_Implementacao_App_Builder.md": {
+    "mtime": 1769722070.564364,
+    "ast_hash": "4fb8506d4c57c876a68b6eb76e597717",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\modelodedados8.md": {
+    "mtime": 1769550293.3351893,
+    "ast_hash": "4ff65a00917d33b6e4727d2f53bbb947",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\TODO_Feedback_V8.md": {
+    "mtime": 1769438957.228802,
+    "ast_hash": "4f15611de7c624221dd640a3c5346aa1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v8\\UX_Story_Communication.md": {
+    "mtime": 1769438409.4965098,
+    "ast_hash": "3a652eb23c2fee632afca12aa07082cb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\Guia_00_MultiPrograma_FUTURO.md": {
+    "mtime": 1774221065.0868847,
+    "ast_hash": "9a92a79596213c0818344f1f7a7e17ac",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\Guia_01_Fundacao_Dashboard.md": {
+    "mtime": 1774221065.128644,
+    "ast_hash": "1d8f0707d3920364b9e9df00b046a7a0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\Guia_02_Gestao_Entidades_UX_Hibrida.md": {
+    "mtime": 1774222038.522484,
+    "ast_hash": "82cccade78f38b5ab28e6d7bc63b0033",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\Guia_03_Catalogo_Pedagogico.md": {
+    "mtime": 1774222102.3127093,
+    "ast_hash": "cb02d9b0f9d5ea14890cc8b9b719e18f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\Guia_04_Turmas_Matriculas.md": {
+    "mtime": 1774222150.935934,
+    "ast_hash": "d28a821ea27c200ee1b5b67fd1d7d4be",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\Guia_05_Automacao_Emails.md": {
+    "mtime": 1774222176.604235,
+    "ast_hash": "36bac3f0d8aea7bdce390b99c6dbba82",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\Guia_06_Avaliacao_e_Importacao.md": {
+    "mtime": 1774222191.6909256,
+    "ast_hash": "a941373bc00fb93cb8beaa6916828c19",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\modelodedados9.md": {
+    "mtime": 1774221065.463904,
+    "ast_hash": "d3fca088d8991a60f80043baad734897",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\apex-implementation-v9.md": {
+    "mtime": 1773185688.5062437,
+    "ast_hash": "fae7d20541ecc62ca02d19d11a6b2250",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\automacao-comunicacoes.md": {
+    "mtime": 1773180358.9156177,
+    "ast_hash": "88386b38b44b78eeb951caa56a94358e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\integracao-modulos-v9.md": {
+    "mtime": 1773185240.3711107,
+    "ast_hash": "6555eff0b5e965850ad05e0f3138a05e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\plano-guias-apex-v9.md": {
+    "mtime": 1773184768.7571266,
+    "ast_hash": "d8e7ea05a7e9c07e00374abf18481325",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\ponto_situacao_20260310.md": {
+    "mtime": 1773186978.565407,
+    "ast_hash": "3f36d2295715da11af9000a1df60c0f3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\oracle-apex-app-builder-users-guide.pdf": {
+    "mtime": 1768661283.575415,
+    "ast_hash": "ab4d73f912d63a8343c57444fd5bfde2",
+    "semantic_hash": ""
+  }
+}
