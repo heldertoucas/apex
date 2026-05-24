@@ -1,4 +1,4 @@
-$dadosDir = "c:\Users\helder.toucas\OneDrive - Câmara Municipal de Lisboa\01 Projetos\16 Outros projetos\Apexv1\apex1-competenciasdigitais\devops\v9\dados"
+$dadosDir = "c:\Users\helder.toucas\OneDrive - Câmara Municipal de Lisboa\01 Projetos\16 Outros projetos\apex\apex\devops\v9\dados"
 
 # Function to create CSV
 function Create-CSV {

@@ -1,7 +1,7 @@
-ï»¿# Project Plan: apex1-competenciasdigitais
+# Project Plan: apex
 
 ## Objective
-ImplementaÃ§Ã£o e gestÃ£o do Passaporte CompetÃªncias Digitais (SGUF v9) via Oracle APEX.
+Implementação e gestão do Passaporte Competências Digitais (SGUF v9) via Oracle APEX.
 
 ## Execution Plan
 - [x] Initial setup complete.

@@ -1,3 +1,5 @@
+<!-- OPENCODE.md (Adaptado automaticamente do GEMINI.md) -->
+
 # Project Intelligence Memory
 
 This project is integrated with the obsidian-ht Second Brain.
@@ -10,3 +12,4 @@ This project is integrated with the obsidian-ht Second Brain.
 ## Vault Context
 - **Project Folder**: 03-projetos/apex
 - **Hot Cache**: 03-projetos/apex/hot.md
+
