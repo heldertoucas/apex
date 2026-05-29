@@ -31,4 +31,4 @@ Oracle APEX implementation for Passaporte Competencias
 - **Documentation**: Maintain conductor plan with checklist progress
 
 
-> Note: Memory Protocol and Global Rules are inherited from Universal Agent Protocol (Rulesync).
+> Note: Memory Protocol and Global Rules are inherited from the global AGENTS.md.
