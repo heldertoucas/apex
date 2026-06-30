@@ -1,16 +1,16 @@
-# Graph Report - apex  (2026-05-21)
+# Graph Report - apex  (2026-06-29)
 
 ## Corpus Check
-- 97 files · ~97,892 words
+- 121 files · ~118,758 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 991 nodes · 926 edges · 76 communities
+- 995 nodes · 929 edges · 77 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0265eb59`
+- Built from commit: `e5052344`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -84,6 +84,7 @@
 - [[_COMMUNITY_Community 66|Community 66]]
 - [[_COMMUNITY_Community 67|Community 67]]
 - [[_COMMUNITY_Community 68|Community 68]]
+- [[_COMMUNITY_Community 76|Community 76]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `F. Tabelas de Lookup (Domínios)` - 17 edges
@@ -100,7 +101,7 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (76 total, 0 thin omitted)
+## Communities (77 total, 0 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.04
@@ -378,8 +379,12 @@ Nodes (3): Execution Plan, Objective, Project Plan: apex
 Cohesion: 0.50
 Nodes (4): 12. `Avaliacoes_Modulo` (Avaliacoes_Modulo), 13. `Badges_Conquistados` (Badges_Conquistados), 3. Diagrama de Esquema, D. Domínio: Avaliação (EVAL)
 
+### Community 76 - "Community 76"
+Cohesion: 0.50
+Nodes (3): Execution Plan, Objective, Project Plan: apex
+
 ## Knowledge Gaps
-- **627 isolated node(s):** `Memory Protocol`, `Vault Context`, `Objective`, `Execution Plan`, `code:sql (BEGIN)` (+622 more)
+- **629 isolated node(s):** `Objective`, `Execution Plan`, `Memory Protocol`, `Vault Context`, `Objective` (+624 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
@@ -389,8 +394,8 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **Why does `3. Diagrama de Esquema` connect `Community 53` to `Community 48`, `Community 18`, `Community 54`, `Community 59`, `Community 60`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **What connects `Memory Protocol`, `Vault Context`, `Objective` to the rest of the system?**
-  _627 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Objective`, `Execution Plan`, `Memory Protocol` to the rest of the system?**
+  _629 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

@@ -180,18 +180,13 @@
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\dados\\Gerador_CSV.ps1": {
-    "mtime": 1779194558.2735577,
-    "ast_hash": "b14286480e2406a4c3263680162ffdf5",
+    "mtime": 1779624807.8870034,
+    "ast_hash": "2df1ef013ce9b5c4172fd689c47a318d",
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\GEMINI.md": {
-    "mtime": 1779194558.933523,
-    "ast_hash": "4b8d304c64f38a927aab0bd28fdaa36f",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\helder.toucas\\Dev\\apex\\conductor\\plan.md": {
-    "mtime": 1779194556.1393588,
-    "ast_hash": "d65f22ba97cb444200b7fde95d595370",
+    "mtime": 1779624807.87169,
+    "ast_hash": "3509763a8c488d4e673da7a5cf3ead83",
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v4\\01_Guia_Fase1_Fundacao.md": {
@@ -487,6 +482,131 @@
   "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\oracle-apex-app-builder-users-guide.pdf": {
     "mtime": 1768661283.575415,
     "ast_hash": "ab4d73f912d63a8343c57444fd5bfde2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.gemini\\settings.json": {
+    "mtime": 1781873245.6402786,
+    "ast_hash": "ddc6069a85a1acc06096e06bcd8087ac",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.opencode\\opencode.json": {
+    "mtime": 1781873246.0649245,
+    "ast_hash": "f2ae21510d07365eb2bce8159272c7a0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.opencode\\plugins\\graphify.js": {
+    "mtime": 1781873246.1128426,
+    "ast_hash": "32b67963417a30cb80544e0b2a56a98d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\AGENTS.md": {
+    "mtime": 1781038959.749665,
+    "ast_hash": "97e81ad70aa080130b6c8c116717e00b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\OPENCODE.md": {
+    "mtime": 1779624807.87169,
+    "ast_hash": "01685275c2256d71933de2ea1144dc89",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.gemini\\skills\\graphify\\SKILL.md": {
+    "mtime": 1781873245.6822507,
+    "ast_hash": "c9b93d72e7604d4f10103b741b42b50f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.gemini\\skills\\graphify\\references\\add-watch.md": {
+    "mtime": 1781873245.714321,
+    "ast_hash": "e10311cd2f69de7d62674eff2b87420f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.gemini\\skills\\graphify\\references\\exports.md": {
+    "mtime": 1781873245.7508266,
+    "ast_hash": "4b1c094b3077da6b95ec99694612327e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.gemini\\skills\\graphify\\references\\extraction-spec.md": {
+    "mtime": 1781873245.793326,
+    "ast_hash": "a50d4409dbac381356a25ca0905d833c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.gemini\\skills\\graphify\\references\\github-and-merge.md": {
+    "mtime": 1781873245.851861,
+    "ast_hash": "aa0e7ef186392cad062e60483ca7dbbf",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.gemini\\skills\\graphify\\references\\hooks.md": {
+    "mtime": 1781873245.892468,
+    "ast_hash": "0045c2f12c69bff3a641a8908a1ac057",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.gemini\\skills\\graphify\\references\\query.md": {
+    "mtime": 1781873245.9373133,
+    "ast_hash": "9c4d903233738180a0d50a7fb709d811",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.gemini\\skills\\graphify\\references\\transcribe.md": {
+    "mtime": 1781873245.9775958,
+    "ast_hash": "cf217decf113af55483edfa042f22db5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.gemini\\skills\\graphify\\references\\update.md": {
+    "mtime": 1781873246.0172217,
+    "ast_hash": "c7a284f2788907c62b1627839ab9a9f9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.opencode\\skills\\graphify\\SKILL.md": {
+    "mtime": 1781873246.163499,
+    "ast_hash": "ed85564fe2dcc5fcd12fcc5000f0be6a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.opencode\\skills\\graphify\\references\\add-watch.md": {
+    "mtime": 1781873246.1769197,
+    "ast_hash": "e10311cd2f69de7d62674eff2b87420f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.opencode\\skills\\graphify\\references\\exports.md": {
+    "mtime": 1781873246.1769197,
+    "ast_hash": "4b1c094b3077da6b95ec99694612327e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.opencode\\skills\\graphify\\references\\extraction-spec.md": {
+    "mtime": 1781873246.182458,
+    "ast_hash": "a50d4409dbac381356a25ca0905d833c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.opencode\\skills\\graphify\\references\\github-and-merge.md": {
+    "mtime": 1781873246.1967683,
+    "ast_hash": "aa0e7ef186392cad062e60483ca7dbbf",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.opencode\\skills\\graphify\\references\\hooks.md": {
+    "mtime": 1781873246.1967683,
+    "ast_hash": "0045c2f12c69bff3a641a8908a1ac057",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.opencode\\skills\\graphify\\references\\query.md": {
+    "mtime": 1781873246.2328978,
+    "ast_hash": "82efbb856d6a3e15e7d78743b34a63c1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.opencode\\skills\\graphify\\references\\transcribe.md": {
+    "mtime": 1781873246.2328978,
+    "ast_hash": "cf217decf113af55483edfa042f22db5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.opencode\\skills\\graphify\\references\\update.md": {
+    "mtime": 1781873246.2407632,
+    "ast_hash": "c7a284f2788907c62b1627839ab9a9f9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\archive\\conductor-legacy\\plan.md": {
+    "mtime": 1779624807.8870034,
+    "ast_hash": "d65f22ba97cb444200b7fde95d595370",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\graphify-out\\converted\\Modelo_de_Dados_a65d3f01.md": {
+    "mtime": 1782747283.808164,
+    "ast_hash": "e4e9e4d430dd80fccdbde5e8340e28aa",
     "semantic_hash": ""
   }
 }
