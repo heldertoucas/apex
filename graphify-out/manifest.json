@@ -455,8 +455,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\apex-implementation-v9.md": {
-    "mtime": 1773185688.5062437,
-    "ast_hash": "fae7d20541ecc62ca02d19d11a6b2250",
+    "mtime": 1784126604.0455136,
+    "ast_hash": "f4effe6e149bd0f9ce462e8535050bbf",
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\automacao-comunicacoes.md": {
@@ -605,7 +605,7 @@
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\graphify-out\\converted\\Modelo_de_Dados_a65d3f01.md": {
-    "mtime": 1784120867.9288814,
+    "mtime": 1784126623.2396486,
     "ast_hash": "e4e9e4d430dd80fccdbde5e8340e28aa",
     "semantic_hash": ""
   },
@@ -672,6 +672,11 @@
   "C:\\Users\\helder.toucas\\Dev\\apex\\openspec\\tasks.md": {
     "mtime": 1784120854.6791642,
     "ast_hash": "f5070b7c4f099bbbb20055774055708e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\.ai-session.json": {
+    "mtime": 1784126616.1238952,
+    "ast_hash": "7431ba840fa0fabb8b8b6a590184be45",
     "semantic_hash": ""
   }
 }

@@ -6,24 +6,27 @@ Oracle APEX implementation for Passaporte Competencias
 
 ## Tech Stack
 - **Platform**: Oracle APEX (Application Express)
-- **Infrastructure**: DevOps configurations in `devops/` directory
-- **Versions**: Multiple SGUF versions tracked (v4, v5-6, v7, v8, v9)
-- **Documentation**: Oracle APEX App Builder Users Guide (PDF reference)
+- **APEXlang**: Declarative application specification (via `.apx` files) for file-based AI-assisted development.
+- **Infrastructure**: DevOps configurations in `devops/` directory.
+- **Versions**: Multiple SGUF versions tracked (v4, v5-6, v7, v8, v9).
+- **Documentation**: Oracle APEX App Builder Users Guide (PDF reference).
 
 ## Architecture
-- **Structure**: DevOps-focused repository with version-specific configurations
-- **Key Directories**: `devops/v4/` through `devops/v9/` (version-specific configs), `conductor/` (project management)
-- **Key Pattern**: Version-based deployment pipeline for Oracle APEX applications
-- **Current Focus**: SGUF v9 implementation
+- **Structure**: DevOps-focused repository with version-specific configurations.
+- **Key Directories**: `devops/v4/` through `devops/v9/` (version-specific configs), `conductor/` (project management).
+- **Key Pattern**: Version-based deployment pipeline for Oracle APEX applications.
+- **Current Focus**: SGUF v9 implementation via APEXlang.
 
 ## Build & Run Commands
-- **No standard build**: Oracle APEX is managed via web interface and SQL scripts
-- **Deployment**: Follow version-specific procedures in `devops/v9/`
+- **No standard build**: Oracle APEX is managed via web interface, SQL scripts, and APEXlang files.
+- **Sincronização APEXlang**: Utilizar o `SQLcl` (Oracle SQL Command Line) ou a extensão de VS Code da Oracle para compilar e sincronizar os ficheiros `.apx` locais com a plataforma web.
+- **Deployment**: Follow version-specific procedures in `devops/v9/`.
 
 ## Code Standards
-- **SQL Scripts**: Follow Oracle APEX naming conventions
-- **Version Control**: Track all SQL and configuration changes in Git
-- **Documentation**: Keep `conductor/plan.md` updated with implementation progress
+- **APEXlang**: Modificar o comportamento da aplicação prioritariamente editando os ficheiros declarativos `.apx` locais em vez de usar a UI do browser.
+- **SQL Scripts**: Follow Oracle APEX naming conventions.
+- **Version Control**: Track all SQL, APEXlang (`.apx`), and configuration changes in Git.
+- **Documentation**: Keep `conductor/plan.md` updated with implementation progress.
 
 ## Quality Gates
 - **Oracle APEX Testing**: Verify application functionality in APEX builder

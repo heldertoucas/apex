@@ -1,0 +1,17 @@
+{
+  "$schema": "https://github.com/dyoshikawa/rulesync/releases/latest/download/config-schema.json",
+  "targets": [
+    "antigravity-cli",
+    "claudecode",
+    "codexcli",
+    "opencode"
+  ],
+  "features": [
+    "rules"
+  ],
+  "sources": [
+    {
+      "path": "C:/Users/helder.toucas/Dev/obsidian-ht/08-system/081-agents/.rulesync/domain-rules/apex"
+    }
+  ]
+}

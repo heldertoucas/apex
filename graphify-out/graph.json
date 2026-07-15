@@ -4,1183 +4,1291 @@
   "graph": {},
   "nodes": [
     {
+      "label": "apex-implementation-v9.md",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L1",
+      "id": "devops_v9_docs_apex_implementation_v9_md",
+      "community": 62,
+      "norm_label": "apex-implementation-v9.md"
+    },
+    {
+      "label": "Estrat\u00e9gia de Desenvolvimento e Deploy com APEXlang (SGUF v9)",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L1",
+      "id": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
+      "community": 62,
+      "norm_label": "estrategia de desenvolvimento e deploy com apexlang (sguf v9)"
+    },
+    {
+      "label": "1. Vis\u00e3o Geral",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L3",
+      "id": "docs_apex_implementation_v9_1_vis\u00e3o_geral",
+      "community": 62,
+      "norm_label": "1. visao geral"
+    },
+    {
+      "label": "2. Fluxo de Trabalho do Agente de IA",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L8",
+      "id": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
+      "community": 62,
+      "norm_label": "2. fluxo de trabalho do agente de ia"
+    },
+    {
+      "label": "code:mermaid (graph TD)",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L12",
+      "id": "docs_apex_implementation_v9_codeblock_1",
+      "community": 62,
+      "norm_label": "code:mermaid (graph td)"
+    },
+    {
+      "label": "Passo 1: Edi\u00e7\u00e3o e Gera\u00e7\u00e3o Local (`.apx`)",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L20",
+      "id": "docs_apex_implementation_v9_passo_1_edi\u00e7\u00e3o_e_gera\u00e7\u00e3o_local_apx",
+      "community": 62,
+      "norm_label": "passo 1: edicao e geracao local (`.apx`)"
+    },
+    {
+      "label": "Passo 2: Sincroniza\u00e7\u00e3o e Deploy",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L26",
+      "id": "docs_apex_implementation_v9_passo_2_sincroniza\u00e7\u00e3o_e_deploy",
+      "community": 62,
+      "norm_label": "passo 2: sincronizacao e deploy"
+    },
+    {
+      "label": "3. Planeamento da Infraestrutura SGUF v9",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L33",
+      "id": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
+      "community": 62,
+      "norm_label": "3. planeamento da infraestrutura sguf v9"
+    },
+    {
+      "label": "M\u00f3dulo 1: Funda\u00e7\u00e3o & Mapeamento Inicial (.apx)",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L37",
+      "id": "docs_apex_implementation_v9_m\u00f3dulo_1_funda\u00e7\u00e3o_mapeamento_inicial_apx",
+      "community": 62,
+      "norm_label": "modulo 1: fundacao & mapeamento inicial (.apx)"
+    },
+    {
+      "label": "M\u00f3dulo 2: P\u00e1ginas de Gest\u00e3o de Candidatos e Entidades",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L43",
+      "id": "docs_apex_implementation_v9_m\u00f3dulo_2_p\u00e1ginas_de_gest\u00e3o_de_candidatos_e_entidades",
+      "community": 62,
+      "norm_label": "modulo 2: paginas de gestao de candidatos e entidades"
+    },
+    {
+      "label": "M\u00f3dulo 3: Automatiza\u00e7\u00f5es e Integra\u00e7\u00f5es",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L49",
+      "id": "docs_apex_implementation_v9_m\u00f3dulo_3_automatiza\u00e7\u00f5es_e_integra\u00e7\u00f5es",
+      "community": 62,
+      "norm_label": "modulo 3: automatizacoes e integracoes"
+    },
+    {
+      "label": "4. Pr\u00f3ximos Passos de Execu\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L57",
+      "id": "docs_apex_implementation_v9_4_pr\u00f3ximos_passos_de_execu\u00e7\u00e3o",
+      "community": 62,
+      "norm_label": "4. proximos passos de execucao"
+    },
+    {
       "label": "graphify.md",
       "file_type": "document",
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L1",
-      "id": "agents_rules_graphify_md",
       "community": 88,
-      "norm_label": "graphify.md"
+      "norm_label": "graphify.md",
+      "id": "agents_rules_graphify_md"
     },
     {
       "label": "graphify",
       "file_type": "document",
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
-      "id": "rules_graphify_graphify",
       "community": 88,
-      "norm_label": "graphify"
+      "norm_label": "graphify",
+      "id": "rules_graphify_graphify"
     },
     {
       "label": "SKILL.md",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L1",
-      "id": "agents_skills_graphify_skill_md",
       "community": 77,
-      "norm_label": "skill.md"
+      "norm_label": "skill.md",
+      "id": "agents_skills_graphify_skill_md"
     },
     {
       "label": "/graphify",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L7",
-      "id": "graphify_skill_graphify",
       "community": 77,
-      "norm_label": "/graphify"
+      "norm_label": "/graphify",
+      "id": "graphify_skill_graphify"
     },
     {
       "label": "Usage",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L11",
-      "id": "graphify_skill_usage",
       "community": 77,
-      "norm_label": "usage"
+      "norm_label": "usage",
+      "id": "graphify_skill_usage"
     },
     {
       "label": "code:block1 (/graphify                                             # full)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L13",
-      "id": "graphify_skill_codeblock_1",
       "community": 77,
-      "norm_label": "code:block1 (/graphify                                             # full)"
+      "norm_label": "code:block1 (/graphify                                             # full)",
+      "id": "graphify_skill_codeblock_1"
     },
     {
       "label": "What graphify is for",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L44",
-      "id": "graphify_skill_what_graphify_is_for",
       "community": 77,
-      "norm_label": "what graphify is for"
+      "norm_label": "what graphify is for",
+      "id": "graphify_skill_what_graphify_is_for"
     },
     {
       "label": "What You Must Do When Invoked",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L48",
-      "id": "graphify_skill_what_you_must_do_when_invoked",
       "community": 77,
-      "norm_label": "what you must do when invoked"
+      "norm_label": "what you must do when invoked",
+      "id": "graphify_skill_what_you_must_do_when_invoked"
     },
     {
       "label": "Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L60",
-      "id": "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths",
       "community": 77,
-      "norm_label": "step 0 - github repos and multi-path merge (only if a url or several paths)"
+      "norm_label": "step 0 - github repos and multi-path merge (only if a url or several paths)",
+      "id": "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths"
     },
     {
       "label": "Step 1 - Ensure graphify is installed",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L64",
-      "id": "graphify_skill_step_1_ensure_graphify_is_installed",
       "community": 77,
-      "norm_label": "step 1 - ensure graphify is installed"
+      "norm_label": "step 1 - ensure graphify is installed",
+      "id": "graphify_skill_step_1_ensure_graphify_is_installed"
     },
     {
       "label": "code:bash (# Detect the correct Python interpreter (handles uv tool, pi)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L66",
-      "id": "graphify_skill_codeblock_2",
       "community": 77,
-      "norm_label": "code:bash (# detect the correct python interpreter (handles uv tool, pi)"
+      "norm_label": "code:bash (# detect the correct python interpreter (handles uv tool, pi)",
+      "id": "graphify_skill_codeblock_2"
     },
     {
       "label": "Step 2 - Detect files",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L106",
-      "id": "graphify_skill_step_2_detect_files",
       "community": 77,
-      "norm_label": "step 2 - detect files"
+      "norm_label": "step 2 - detect files",
+      "id": "graphify_skill_step_2_detect_files"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L108",
-      "id": "graphify_skill_codeblock_3",
       "community": 77,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "graphify_skill_codeblock_3"
     },
     {
       "label": "code:block4 (Corpus: X files \u00b7 ~Y words)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L120",
-      "id": "graphify_skill_codeblock_4",
       "community": 77,
-      "norm_label": "code:block4 (corpus: x files \u00b7 ~y words)"
+      "norm_label": "code:block4 (corpus: x files \u00b7 ~y words)",
+      "id": "graphify_skill_codeblock_4"
     },
     {
       "label": "Step 2.5 - Video and audio (only if video files detected)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L143",
-      "id": "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected",
       "community": 77,
-      "norm_label": "step 2.5 - video and audio (only if video files detected)"
+      "norm_label": "step 2.5 - video and audio (only if video files detected)",
+      "id": "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected"
     },
     {
       "label": "Step 3 - Extract entities and relationships",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L147",
-      "id": "graphify_skill_step_3_extract_entities_and_relationships",
       "community": 77,
-      "norm_label": "step 3 - extract entities and relationships"
+      "norm_label": "step 3 - extract entities and relationships",
+      "id": "graphify_skill_step_3_extract_entities_and_relationships"
     },
     {
       "label": "Part A - Structural extraction for code files",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L164",
-      "id": "graphify_skill_part_a_structural_extraction_for_code_files",
       "community": 77,
-      "norm_label": "part a - structural extraction for code files"
+      "norm_label": "part a - structural extraction for code files",
+      "id": "graphify_skill_part_a_structural_extraction_for_code_files"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L168",
-      "id": "graphify_skill_codeblock_5",
       "community": 77,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "graphify_skill_codeblock_5"
     },
     {
       "label": "Part B - Semantic extraction (parallel subagents)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L190",
-      "id": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
       "community": 77,
-      "norm_label": "part b - semantic extraction (parallel subagents)"
+      "norm_label": "part b - semantic extraction (parallel subagents)",
+      "id": "graphify_skill_part_b_semantic_extraction_parallel_subagents"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L206",
-      "id": "graphify_skill_codeblock_6",
       "community": 77,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "graphify_skill_codeblock_6"
     },
     {
       "label": "code:block7 ([Agent tool call 1: files 1-15, subagent_type=\"general-purpo)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L237",
-      "id": "graphify_skill_codeblock_7",
       "community": 77,
-      "norm_label": "code:block7 ([agent tool call 1: files 1-15, subagent_type=\"general-purpo)"
+      "norm_label": "code:block7 ([agent tool call 1: files 1-15, subagent_type=\"general-purpo)",
+      "id": "graphify_skill_codeblock_7"
     },
     {
       "label": "code:bash (PROJECT_ROOT=$(cat graphify-out/.graphify_root))",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L247",
-      "id": "graphify_skill_codeblock_8",
       "community": 77,
-      "norm_label": "code:bash (project_root=$(cat graphify-out/.graphify_root))"
+      "norm_label": "code:bash (project_root=$(cat graphify-out/.graphify_root))",
+      "id": "graphify_skill_codeblock_8"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L267",
-      "id": "graphify_skill_codeblock_9",
       "community": 77,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "graphify_skill_codeblock_9"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L291",
-      "id": "graphify_skill_codeblock_10",
       "community": 77,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "graphify_skill_codeblock_10"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L304",
-      "id": "graphify_skill_codeblock_11",
       "community": 77,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "graphify_skill_codeblock_11"
     },
     {
       "label": "Part C - Merge AST + semantic into final extraction",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L335",
-      "id": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
       "community": 77,
-      "norm_label": "part c - merge ast + semantic into final extraction"
+      "norm_label": "part c - merge ast + semantic into final extraction",
+      "id": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L337",
-      "id": "graphify_skill_codeblock_12",
       "community": 77,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "graphify_skill_codeblock_12"
     },
     {
       "label": "Step 4 - Build graph, cluster, analyze, generate outputs",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L369",
-      "id": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
       "community": 77,
-      "norm_label": "step 4 - build graph, cluster, analyze, generate outputs"
+      "norm_label": "step 4 - build graph, cluster, analyze, generate outputs",
+      "id": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs"
     },
     {
       "label": "code:bash (mkdir -p graphify-out)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L373",
-      "id": "graphify_skill_codeblock_13",
       "community": 77,
-      "norm_label": "code:bash (mkdir -p graphify-out)"
+      "norm_label": "code:bash (mkdir -p graphify-out)",
+      "id": "graphify_skill_codeblock_13"
     },
     {
       "label": "Step 5 - Label communities",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L421",
-      "id": "graphify_skill_step_5_label_communities",
       "community": 77,
-      "norm_label": "step 5 - label communities"
+      "norm_label": "step 5 - label communities",
+      "id": "graphify_skill_step_5_label_communities"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L427",
-      "id": "graphify_skill_codeblock_14",
       "community": 77,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "graphify_skill_codeblock_14"
     },
     {
       "label": "Step 6 - Generate Obsidian vault (opt-in) + HTML",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L461",
-      "id": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
       "community": 77,
-      "norm_label": "step 6 - generate obsidian vault (opt-in) + html"
+      "norm_label": "step 6 - generate obsidian vault (opt-in) + html",
+      "id": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html"
     },
     {
       "label": "code:bash (graphify export obsidian)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L469",
-      "id": "graphify_skill_codeblock_15",
       "community": 77,
-      "norm_label": "code:bash (graphify export obsidian)"
+      "norm_label": "code:bash (graphify export obsidian)",
+      "id": "graphify_skill_codeblock_15"
     },
     {
       "label": "code:bash (graphify export html  # auto-aggregates to community view if)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L476",
-      "id": "graphify_skill_codeblock_16",
       "community": 77,
-      "norm_label": "code:bash (graphify export html  # auto-aggregates to community view if)"
+      "norm_label": "code:bash (graphify export html  # auto-aggregates to community view if)",
+      "id": "graphify_skill_codeblock_16"
     },
     {
       "label": "Steps 6b-8 - Wiki, Neo4j, SVG, GraphML, MCP, benchmark (only on their flags)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L481",
-      "id": "graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags",
       "community": 77,
-      "norm_label": "steps 6b-8 - wiki, neo4j, svg, graphml, mcp, benchmark (only on their flags)"
+      "norm_label": "steps 6b-8 - wiki, neo4j, svg, graphml, mcp, benchmark (only on their flags)",
+      "id": "graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags"
     },
     {
       "label": "Step 9 - Save manifest, update cost tracker, clean up, and report",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L487",
-      "id": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
       "community": 77,
-      "norm_label": "step 9 - save manifest, update cost tracker, clean up, and report"
+      "norm_label": "step 9 - save manifest, update cost tracker, clean up, and report",
+      "id": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L489",
-      "id": "graphify_skill_codeblock_17",
       "community": 77,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "graphify_skill_codeblock_17"
     },
     {
       "label": "code:block18 (Graph complete. Outputs in PATH_TO_DIR/graphify-out/)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L531",
-      "id": "graphify_skill_codeblock_18",
       "community": 77,
-      "norm_label": "code:block18 (graph complete. outputs in path_to_dir/graphify-out/)"
+      "norm_label": "code:block18 (graph complete. outputs in path_to_dir/graphify-out/)",
+      "id": "graphify_skill_codeblock_18"
     },
     {
       "label": "Interpreter guard for subcommands",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L561",
-      "id": "graphify_skill_interpreter_guard_for_subcommands",
       "community": 77,
-      "norm_label": "interpreter guard for subcommands"
+      "norm_label": "interpreter guard for subcommands",
+      "id": "graphify_skill_interpreter_guard_for_subcommands"
     },
     {
       "label": "code:bash (if [ ! -f graphify-out/.graphify_python ]; then)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L565",
-      "id": "graphify_skill_codeblock_19",
       "community": 77,
-      "norm_label": "code:bash (if [ ! -f graphify-out/.graphify_python ]; then)"
+      "norm_label": "code:bash (if [ ! -f graphify-out/.graphify_python ]; then)",
+      "id": "graphify_skill_codeblock_19"
     },
     {
       "label": "For --update and --cluster-only",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L579",
-      "id": "graphify_skill_for_update_and_cluster_only",
       "community": 77,
-      "norm_label": "for --update and --cluster-only"
+      "norm_label": "for --update and --cluster-only",
+      "id": "graphify_skill_for_update_and_cluster_only"
     },
     {
       "label": "For /graphify query",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L585",
-      "id": "graphify_skill_for_graphify_query",
       "community": 77,
-      "norm_label": "for /graphify query"
+      "norm_label": "for /graphify query",
+      "id": "graphify_skill_for_graphify_query"
     },
     {
       "label": "code:bash (graphify query \"<question>\")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L589",
-      "id": "graphify_skill_codeblock_20",
       "community": 77,
-      "norm_label": "code:bash (graphify query \"<question>\")"
+      "norm_label": "code:bash (graphify query \"<question>\")",
+      "id": "graphify_skill_codeblock_20"
     },
     {
       "label": "For /graphify add and --watch",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L597",
-      "id": "graphify_skill_for_graphify_add_and_watch",
       "community": 77,
-      "norm_label": "for /graphify add and --watch"
+      "norm_label": "for /graphify add and --watch",
+      "id": "graphify_skill_for_graphify_add_and_watch"
     },
     {
       "label": "For the commit hook and native CLAUDE.md integration",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L603",
-      "id": "graphify_skill_for_the_commit_hook_and_native_claude_md_integration",
       "community": 77,
-      "norm_label": "for the commit hook and native claude.md integration"
+      "norm_label": "for the commit hook and native claude.md integration",
+      "id": "graphify_skill_for_the_commit_hook_and_native_claude_md_integration"
     },
     {
       "label": "Honesty Rules",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L609",
-      "id": "graphify_skill_honesty_rules",
       "community": 77,
-      "norm_label": "honesty rules"
+      "norm_label": "honesty rules",
+      "id": "graphify_skill_honesty_rules"
     },
     {
       "label": "add-watch.md",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/add-watch.md",
       "source_location": "L1",
-      "id": "agents_skills_graphify_references_add_watch_md",
       "community": 83,
-      "norm_label": "add-watch.md"
+      "norm_label": "add-watch.md",
+      "id": "agents_skills_graphify_references_add_watch_md"
     },
     {
       "label": "graphify reference: add a URL and watch a folder",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/add-watch.md",
       "source_location": "L1",
-      "id": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
       "community": 83,
-      "norm_label": "graphify reference: add a url and watch a folder"
+      "norm_label": "graphify reference: add a url and watch a folder",
+      "id": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder"
     },
     {
       "label": "For /graphify add",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/add-watch.md",
       "source_location": "L5",
-      "id": "references_add_watch_for_graphify_add",
       "community": 83,
-      "norm_label": "for /graphify add"
+      "norm_label": "for /graphify add",
+      "id": "references_add_watch_for_graphify_add"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/add-watch.md",
       "source_location": "L9",
-      "id": "references_add_watch_codeblock_1",
       "community": 83,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "references_add_watch_codeblock_1"
     },
     {
       "label": "For --watch",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/add-watch.md",
       "source_location": "L39",
-      "id": "references_add_watch_for_watch",
       "community": 83,
-      "norm_label": "for --watch"
+      "norm_label": "for --watch",
+      "id": "references_add_watch_for_watch"
     },
     {
       "label": "code:bash (python3 -m graphify.watch INPUT_PATH --debounce 3)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/add-watch.md",
       "source_location": "L43",
-      "id": "references_add_watch_codeblock_2",
       "community": 83,
-      "norm_label": "code:bash (python3 -m graphify.watch input_path --debounce 3)"
+      "norm_label": "code:bash (python3 -m graphify.watch input_path --debounce 3)",
+      "id": "references_add_watch_codeblock_2"
     },
     {
       "label": "exports.md",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L1",
-      "id": "agents_skills_graphify_references_exports_md",
       "community": 78,
-      "norm_label": "exports.md"
+      "norm_label": "exports.md",
+      "id": "agents_skills_graphify_references_exports_md"
     },
     {
       "label": "graphify reference: extra exports and benchmark",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L1",
-      "id": "references_exports_graphify_reference_extra_exports_and_benchmark",
       "community": 78,
-      "norm_label": "graphify reference: extra exports and benchmark"
+      "norm_label": "graphify reference: extra exports and benchmark",
+      "id": "references_exports_graphify_reference_extra_exports_and_benchmark"
     },
     {
       "label": "Step 6b - Wiki (only if --wiki flag)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L5",
-      "id": "references_exports_step_6b_wiki_only_if_wiki_flag",
       "community": 78,
-      "norm_label": "step 6b - wiki (only if --wiki flag)"
+      "norm_label": "step 6b - wiki (only if --wiki flag)",
+      "id": "references_exports_step_6b_wiki_only_if_wiki_flag"
     },
     {
       "label": "code:bash (graphify export wiki)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L11",
-      "id": "references_exports_codeblock_1",
       "community": 78,
-      "norm_label": "code:bash (graphify export wiki)"
+      "norm_label": "code:bash (graphify export wiki)",
+      "id": "references_exports_codeblock_1"
     },
     {
       "label": "Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L15",
-      "id": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
       "community": 78,
-      "norm_label": "step 7 - neo4j export (only if --neo4j or --neo4j-push flag)"
+      "norm_label": "step 7 - neo4j export (only if --neo4j or --neo4j-push flag)",
+      "id": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag"
     },
     {
       "label": "code:bash (graphify export neo4j)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L19",
-      "id": "references_exports_codeblock_2",
       "community": 78,
-      "norm_label": "code:bash (graphify export neo4j)"
+      "norm_label": "code:bash (graphify export neo4j)",
+      "id": "references_exports_codeblock_2"
     },
     {
       "label": "code:bash (graphify export neo4j --push bolt://localhost:7687 --user ne)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L25",
-      "id": "references_exports_codeblock_3",
       "community": 78,
-      "norm_label": "code:bash (graphify export neo4j --push bolt://localhost:7687 --user ne)"
+      "norm_label": "code:bash (graphify export neo4j --push bolt://localhost:7687 --user ne)",
+      "id": "references_exports_codeblock_3"
     },
     {
       "label": "Step 7b - SVG export (only if --svg flag)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L31",
-      "id": "references_exports_step_7b_svg_export_only_if_svg_flag",
       "community": 78,
-      "norm_label": "step 7b - svg export (only if --svg flag)"
+      "norm_label": "step 7b - svg export (only if --svg flag)",
+      "id": "references_exports_step_7b_svg_export_only_if_svg_flag"
     },
     {
       "label": "code:bash (graphify export svg)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L33",
-      "id": "references_exports_codeblock_4",
       "community": 78,
-      "norm_label": "code:bash (graphify export svg)"
+      "norm_label": "code:bash (graphify export svg)",
+      "id": "references_exports_codeblock_4"
     },
     {
       "label": "Step 7c - GraphML export (only if --graphml flag)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L37",
-      "id": "references_exports_step_7c_graphml_export_only_if_graphml_flag",
       "community": 78,
-      "norm_label": "step 7c - graphml export (only if --graphml flag)"
+      "norm_label": "step 7c - graphml export (only if --graphml flag)",
+      "id": "references_exports_step_7c_graphml_export_only_if_graphml_flag"
     },
     {
       "label": "code:bash (graphify export graphml)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L39",
-      "id": "references_exports_codeblock_5",
       "community": 78,
-      "norm_label": "code:bash (graphify export graphml)"
+      "norm_label": "code:bash (graphify export graphml)",
+      "id": "references_exports_codeblock_5"
     },
     {
       "label": "Step 7d - MCP server (only if --mcp flag)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L43",
-      "id": "references_exports_step_7d_mcp_server_only_if_mcp_flag",
       "community": 78,
-      "norm_label": "step 7d - mcp server (only if --mcp flag)"
+      "norm_label": "step 7d - mcp server (only if --mcp flag)",
+      "id": "references_exports_step_7d_mcp_server_only_if_mcp_flag"
     },
     {
       "label": "code:bash (python3 -m graphify.serve graphify-out/graph.json)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L45",
-      "id": "references_exports_codeblock_6",
       "community": 78,
-      "norm_label": "code:bash (python3 -m graphify.serve graphify-out/graph.json)"
+      "norm_label": "code:bash (python3 -m graphify.serve graphify-out/graph.json)",
+      "id": "references_exports_codeblock_6"
     },
     {
       "label": "code:json ({)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L52",
-      "id": "references_exports_codeblock_7",
       "community": 78,
-      "norm_label": "code:json ({)"
+      "norm_label": "code:json ({)",
+      "id": "references_exports_codeblock_7"
     },
     {
       "label": "Step 8 - Token reduction benchmark (only if total_words > 5000)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L63",
-      "id": "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000",
       "community": 78,
-      "norm_label": "step 8 - token reduction benchmark (only if total_words > 5000)"
+      "norm_label": "step 8 - token reduction benchmark (only if total_words > 5000)",
+      "id": "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000"
     },
     {
       "label": "code:bash (graphify benchmark)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L67",
-      "id": "references_exports_codeblock_8",
       "community": 78,
-      "norm_label": "code:bash (graphify benchmark)"
+      "norm_label": "code:bash (graphify benchmark)",
+      "id": "references_exports_codeblock_8"
     },
     {
       "label": "extraction-spec.md",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/extraction-spec.md",
       "source_location": "L1",
-      "id": "agents_skills_graphify_references_extraction_spec_md",
       "community": 86,
-      "norm_label": "extraction-spec.md"
+      "norm_label": "extraction-spec.md",
+      "id": "agents_skills_graphify_references_extraction_spec_md"
     },
     {
       "label": "graphify reference: extraction subagent prompt",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/extraction-spec.md",
       "source_location": "L1",
-      "id": "references_extraction_spec_graphify_reference_extraction_subagent_prompt",
       "community": 86,
-      "norm_label": "graphify reference: extraction subagent prompt"
+      "norm_label": "graphify reference: extraction subagent prompt",
+      "id": "references_extraction_spec_graphify_reference_extraction_subagent_prompt"
     },
     {
       "label": "code:block1 (You are a graphify extraction subagent. Read the files liste)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/extraction-spec.md",
       "source_location": "L5",
-      "id": "references_extraction_spec_codeblock_1",
       "community": 86,
-      "norm_label": "code:block1 (you are a graphify extraction subagent. read the files liste)"
+      "norm_label": "code:block1 (you are a graphify extraction subagent. read the files liste)",
+      "id": "references_extraction_spec_codeblock_1"
     },
     {
       "label": "github-and-merge.md",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/github-and-merge.md",
       "source_location": "L1",
-      "id": "agents_skills_graphify_references_github_and_merge_md",
       "community": 84,
-      "norm_label": "github-and-merge.md"
+      "norm_label": "github-and-merge.md",
+      "id": "agents_skills_graphify_references_github_and_merge_md"
     },
     {
       "label": "graphify reference: GitHub clone and cross-repo merge",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/github-and-merge.md",
       "source_location": "L1",
-      "id": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
       "community": 84,
-      "norm_label": "graphify reference: github clone and cross-repo merge"
+      "norm_label": "graphify reference: github clone and cross-repo merge",
+      "id": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge"
     },
     {
       "label": "Step 0 - Clone GitHub repo(s) (only if a GitHub URL was given)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/github-and-merge.md",
       "source_location": "L5",
-      "id": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
       "community": 84,
-      "norm_label": "step 0 - clone github repo(s) (only if a github url was given)"
+      "norm_label": "step 0 - clone github repo(s) (only if a github url was given)",
+      "id": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
     },
     {
       "label": "code:bash (LOCAL_PATH=$(graphify clone <github-url> [--branch <branch>])",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/github-and-merge.md",
       "source_location": "L8",
-      "id": "references_github_and_merge_codeblock_1",
       "community": 84,
-      "norm_label": "code:bash (local_path=$(graphify clone <github-url> [--branch <branch>])"
+      "norm_label": "code:bash (local_path=$(graphify clone <github-url> [--branch <branch>])",
+      "id": "references_github_and_merge_codeblock_1"
     },
     {
       "label": "code:bash (# Clone each repo, run the full pipeline on each, then merge)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/github-and-merge.md",
       "source_location": "L14",
-      "id": "references_github_and_merge_codeblock_2",
       "community": 84,
-      "norm_label": "code:bash (# clone each repo, run the full pipeline on each, then merge)"
+      "norm_label": "code:bash (# clone each repo, run the full pipeline on each, then merge)",
+      "id": "references_github_and_merge_codeblock_2"
     },
     {
       "label": "code:bash (graphify extract ./core/     # \u2192 ./core/graphify-out/graph.j)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/github-and-merge.md",
       "source_location": "L32",
-      "id": "references_github_and_merge_codeblock_3",
       "community": 84,
-      "norm_label": "code:bash (graphify extract ./core/     # \u2192 ./core/graphify-out/graph.j)"
+      "norm_label": "code:bash (graphify extract ./core/     # \u2192 ./core/graphify-out/graph.j)",
+      "id": "references_github_and_merge_codeblock_3"
     },
     {
       "label": "hooks.md",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L1",
-      "id": "agents_skills_graphify_references_hooks_md",
       "community": 82,
-      "norm_label": "hooks.md"
+      "norm_label": "hooks.md",
+      "id": "agents_skills_graphify_references_hooks_md"
     },
     {
       "label": "graphify reference: commit hook and native CLAUDE.md integration",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L1",
-      "id": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
       "community": 82,
-      "norm_label": "graphify reference: commit hook and native claude.md integration"
+      "norm_label": "graphify reference: commit hook and native claude.md integration",
+      "id": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration"
     },
     {
       "label": "For git commit hook",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L5",
-      "id": "references_hooks_for_git_commit_hook",
       "community": 82,
-      "norm_label": "for git commit hook"
+      "norm_label": "for git commit hook",
+      "id": "references_hooks_for_git_commit_hook"
     },
     {
       "label": "code:bash (graphify hook install    # install)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L9",
-      "id": "references_hooks_codeblock_1",
       "community": 82,
-      "norm_label": "code:bash (graphify hook install    # install)"
+      "norm_label": "code:bash (graphify hook install    # install)",
+      "id": "references_hooks_codeblock_1"
     },
     {
       "label": "For native CLAUDE.md integration",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L21",
-      "id": "references_hooks_for_native_claude_md_integration",
       "community": 82,
-      "norm_label": "for native claude.md integration"
+      "norm_label": "for native claude.md integration",
+      "id": "references_hooks_for_native_claude_md_integration"
     },
     {
       "label": "code:bash (graphify claude install)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L25",
-      "id": "references_hooks_codeblock_2",
       "community": 82,
-      "norm_label": "code:bash (graphify claude install)"
+      "norm_label": "code:bash (graphify claude install)",
+      "id": "references_hooks_codeblock_2"
     },
     {
       "label": "code:bash (graphify claude uninstall  # remove the section)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L31",
-      "id": "references_hooks_codeblock_3",
       "community": 82,
-      "norm_label": "code:bash (graphify claude uninstall  # remove the section)"
+      "norm_label": "code:bash (graphify claude uninstall  # remove the section)",
+      "id": "references_hooks_codeblock_3"
     },
     {
       "label": "query.md",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L1",
-      "id": "agents_skills_graphify_references_query_md",
       "community": 79,
-      "norm_label": "query.md"
+      "norm_label": "query.md",
+      "id": "agents_skills_graphify_references_query_md"
     },
     {
       "label": "graphify reference: query, path, explain",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L1",
-      "id": "references_query_graphify_reference_query_path_explain",
       "community": 79,
-      "norm_label": "graphify reference: query, path, explain"
+      "norm_label": "graphify reference: query, path, explain",
+      "id": "references_query_graphify_reference_query_path_explain"
     },
     {
       "label": "Step 0 \u2014 Constrained query expansion (REQUIRED before traversal)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L12",
-      "id": "references_query_step_0_constrained_query_expansion_required_before_traversal",
       "community": 79,
-      "norm_label": "step 0 \u2014 constrained query expansion (required before traversal)"
+      "norm_label": "step 0 \u2014 constrained query expansion (required before traversal)",
+      "id": "references_query_step_0_constrained_query_expansion_required_before_traversal"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L19",
-      "id": "references_query_codeblock_1",
       "community": 79,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "references_query_codeblock_1"
     },
     {
       "label": "code:block2 (Query expanded to (from graph vocab, N tokens): [token1, tok)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L45",
-      "id": "references_query_codeblock_2",
       "community": 79,
-      "norm_label": "code:block2 (query expanded to (from graph vocab, n tokens): [token1, tok)"
+      "norm_label": "code:block2 (query expanded to (from graph vocab, n tokens): [token1, tok)",
+      "id": "references_query_codeblock_2"
     },
     {
       "label": "Step 1 \u2014 Traversal",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L50",
-      "id": "references_query_step_1_traversal",
       "community": 79,
-      "norm_label": "step 1 \u2014 traversal"
+      "norm_label": "step 1 \u2014 traversal",
+      "id": "references_query_step_1_traversal"
     },
     {
       "label": "code:bash (graphify query \"QUESTION\")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L54",
-      "id": "references_query_codeblock_3",
       "community": 79,
-      "norm_label": "code:bash (graphify query \"question\")"
+      "norm_label": "code:bash (graphify query \"question\")",
+      "id": "references_query_codeblock_3"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L63",
-      "id": "references_query_codeblock_4",
       "community": 79,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result)"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result)",
+      "id": "references_query_codeblock_4"
     },
     {
       "label": "For /graphify path",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L71",
-      "id": "references_query_for_graphify_path",
       "community": 79,
-      "norm_label": "for /graphify path"
+      "norm_label": "for /graphify path",
+      "id": "references_query_for_graphify_path"
     },
     {
       "label": "code:bash (graphify path \"NODE_A\" \"NODE_B\")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L75",
-      "id": "references_query_codeblock_5",
       "community": 79,
-      "norm_label": "code:bash (graphify path \"node_a\" \"node_b\")"
+      "norm_label": "code:bash (graphify path \"node_a\" \"node_b\")",
+      "id": "references_query_codeblock_5"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L83",
-      "id": "references_query_codeblock_6",
       "community": 79,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result)"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result)",
+      "id": "references_query_codeblock_6"
     },
     {
       "label": "For /graphify explain",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L89",
-      "id": "references_query_for_graphify_explain",
       "community": 79,
-      "norm_label": "for /graphify explain"
+      "norm_label": "for /graphify explain",
+      "id": "references_query_for_graphify_explain"
     },
     {
       "label": "code:bash (graphify explain \"NODE_NAME\")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L93",
-      "id": "references_query_codeblock_7",
       "community": 79,
-      "norm_label": "code:bash (graphify explain \"node_name\")"
+      "norm_label": "code:bash (graphify explain \"node_name\")",
+      "id": "references_query_codeblock_7"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L101",
-      "id": "references_query_codeblock_8",
       "community": 79,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result)"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result)",
+      "id": "references_query_codeblock_8"
     },
     {
       "label": "transcribe.md",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/transcribe.md",
       "source_location": "L1",
-      "id": "agents_skills_graphify_references_transcribe_md",
       "community": 85,
-      "norm_label": "transcribe.md"
+      "norm_label": "transcribe.md",
+      "id": "agents_skills_graphify_references_transcribe_md"
     },
     {
       "label": "graphify reference: transcribe video and audio",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/transcribe.md",
       "source_location": "L1",
-      "id": "references_transcribe_graphify_reference_transcribe_video_and_audio",
       "community": 85,
-      "norm_label": "graphify reference: transcribe video and audio"
+      "norm_label": "graphify reference: transcribe video and audio",
+      "id": "references_transcribe_graphify_reference_transcribe_video_and_audio"
     },
     {
       "label": "Step 2.5 - Transcribe video / audio files (only if video files detected)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/transcribe.md",
       "source_location": "L5",
-      "id": "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
       "community": 85,
-      "norm_label": "step 2.5 - transcribe video / audio files (only if video files detected)"
+      "norm_label": "step 2.5 - transcribe video / audio files (only if video files detected)",
+      "id": "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
     },
     {
       "label": "code:bash (GRAPHIFY_WHISPER_MODEL=base  # or whatever --whisper-model t)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/transcribe.md",
       "source_location": "L26",
-      "id": "references_transcribe_codeblock_1",
       "community": 85,
-      "norm_label": "code:bash (graphify_whisper_model=base  # or whatever --whisper-model t)"
+      "norm_label": "code:bash (graphify_whisper_model=base  # or whatever --whisper-model t)",
+      "id": "references_transcribe_codeblock_1"
     },
     {
       "label": "update.md",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L1",
-      "id": "agents_skills_graphify_references_update_md",
       "community": 80,
-      "norm_label": "update.md"
+      "norm_label": "update.md",
+      "id": "agents_skills_graphify_references_update_md"
     },
     {
       "label": "graphify reference: incremental update and cluster-only",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L1",
-      "id": "references_update_graphify_reference_incremental_update_and_cluster_only",
       "community": 80,
-      "norm_label": "graphify reference: incremental update and cluster-only"
+      "norm_label": "graphify reference: incremental update and cluster-only",
+      "id": "references_update_graphify_reference_incremental_update_and_cluster_only"
     },
     {
       "label": "For --update (incremental re-extraction)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L5",
-      "id": "references_update_for_update_incremental_re_extraction",
       "community": 80,
-      "norm_label": "for --update (incremental re-extraction)"
+      "norm_label": "for --update (incremental re-extraction)",
+      "id": "references_update_for_update_incremental_re_extraction"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L9",
-      "id": "references_update_codeblock_1",
       "community": 80,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "references_update_codeblock_1"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L32",
-      "id": "references_update_codeblock_2",
       "community": 80,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "references_update_codeblock_2"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L50",
-      "id": "references_update_codeblock_3",
       "community": 80,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "references_update_codeblock_3"
     },
     {
       "label": "code:bash (if [ ! -f graphify-out/.graphify_extract.json ]; then)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L71",
-      "id": "references_update_codeblock_4",
       "community": 80,
-      "norm_label": "code:bash (if [ ! -f graphify-out/.graphify_extract.json ]; then)"
+      "norm_label": "code:bash (if [ ! -f graphify-out/.graphify_extract.json ]; then)",
+      "id": "references_update_codeblock_4"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L85",
-      "id": "references_update_codeblock_5",
       "community": 80,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "references_update_codeblock_5"
     },
     {
       "label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L136",
-      "id": "references_update_codeblock_6",
       "community": 80,
-      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")"
+      "norm_label": "code:bash ($(cat graphify-out/.graphify_python) -c \")",
+      "id": "references_update_codeblock_6"
     },
     {
       "label": "For --cluster-only",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L166",
-      "id": "references_update_for_cluster_only",
       "community": 80,
-      "norm_label": "for --cluster-only"
+      "norm_label": "for --cluster-only",
+      "id": "references_update_for_cluster_only"
     },
     {
       "label": "code:bash (graphify cluster-only .)",
       "file_type": "document",
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L170",
-      "id": "references_update_codeblock_7",
       "community": 80,
-      "norm_label": "code:bash (graphify cluster-only .)"
+      "norm_label": "code:bash (graphify cluster-only .)",
+      "id": "references_update_codeblock_7"
     },
     {
       "label": "graphify.md",
       "file_type": "document",
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L1",
-      "id": "agents_workflows_graphify_md",
       "community": 89,
-      "norm_label": "graphify.md"
+      "norm_label": "graphify.md",
+      "id": "agents_workflows_graphify_md"
     },
     {
       "label": "Workflow: graphify",
       "file_type": "document",
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6",
-      "id": "workflows_graphify_workflow_graphify",
       "community": 89,
-      "norm_label": "workflow: graphify"
+      "norm_label": "workflow: graphify",
+      "id": "workflows_graphify_workflow_graphify"
     },
     {
       "label": "hooks.json",
       "file_type": "code",
       "source_file": ".codex/hooks.json",
       "source_location": "L1",
-      "id": "codex_hooks_json",
       "community": 87,
-      "norm_label": "hooks.json"
+      "norm_label": "hooks.json",
+      "id": "codex_hooks_json"
     },
     {
       "label": "hooks",
       "file_type": "code",
       "source_file": ".codex/hooks.json",
       "source_location": "L2",
-      "id": "codex_hooks_hooks",
       "community": 87,
-      "norm_label": "hooks"
+      "norm_label": "hooks",
+      "id": "codex_hooks_hooks"
     },
     {
       "label": "PreToolUse",
       "file_type": "code",
       "source_file": ".codex/hooks.json",
       "source_location": "L3",
-      "id": "codex_hooks_hooks_pretooluse",
       "community": 87,
-      "norm_label": "pretooluse"
+      "norm_label": "pretooluse",
+      "id": "codex_hooks_hooks_pretooluse"
     },
     {
       "label": "AGENTS.md",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L1",
-      "id": "agents_md",
       "community": 81,
-      "norm_label": "agents.md"
+      "norm_label": "agents.md",
+      "id": "agents_md"
     },
     {
       "label": "Project Instructions: apex",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L1",
-      "id": "apex_agents_project_instructions_apex",
       "community": 81,
-      "norm_label": "project instructions: apex"
+      "norm_label": "project instructions: apex",
+      "id": "apex_agents_project_instructions_apex"
     },
     {
       "label": "Product Vision",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L3",
-      "id": "apex_agents_product_vision",
       "community": 81,
-      "norm_label": "product vision"
+      "norm_label": "product vision",
+      "id": "apex_agents_product_vision"
     },
     {
       "label": "Tech Stack",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L7",
-      "id": "apex_agents_tech_stack",
       "community": 81,
-      "norm_label": "tech stack"
+      "norm_label": "tech stack",
+      "id": "apex_agents_tech_stack"
     },
     {
       "label": "Architecture",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L13",
-      "id": "apex_agents_architecture",
       "community": 81,
-      "norm_label": "architecture"
+      "norm_label": "architecture",
+      "id": "apex_agents_architecture"
     },
     {
       "label": "Build & Run Commands",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L19",
-      "id": "apex_agents_build_run_commands",
       "community": 81,
-      "norm_label": "build & run commands"
+      "norm_label": "build & run commands",
+      "id": "apex_agents_build_run_commands"
     },
     {
       "label": "Code Standards",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L23",
-      "id": "apex_agents_code_standards",
       "community": 81,
-      "norm_label": "code standards"
+      "norm_label": "code standards",
+      "id": "apex_agents_code_standards"
     },
     {
       "label": "Quality Gates",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L28",
-      "id": "apex_agents_quality_gates",
       "community": 81,
-      "norm_label": "quality gates"
+      "norm_label": "quality gates",
+      "id": "apex_agents_quality_gates"
     },
     {
       "label": "graphify",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L36",
-      "id": "apex_agents_graphify",
       "community": 81,
-      "norm_label": "graphify"
+      "norm_label": "graphify",
+      "id": "apex_agents_graphify"
     },
     {
       "label": "GEMINI.md",
       "file_type": "document",
       "source_file": "GEMINI.md",
       "source_location": "L1",
-      "id": "gemini_md",
       "community": 66,
-      "norm_label": "gemini.md"
+      "norm_label": "gemini.md",
+      "id": "gemini_md"
     },
     {
       "label": "graphify",
       "file_type": "document",
       "source_file": "GEMINI.md",
       "source_location": "L1",
-      "id": "apex_gemini_graphify",
       "community": 66,
-      "norm_label": "graphify"
+      "norm_label": "graphify",
+      "id": "apex_gemini_graphify"
     },
     {
       "label": "tasks.md",
       "file_type": "document",
       "source_file": "openspec/tasks.md",
       "source_location": "L1",
-      "id": "openspec_tasks_md",
       "community": 90,
-      "norm_label": "tasks.md"
+      "norm_label": "tasks.md",
+      "id": "openspec_tasks_md"
     },
     {
       "label": "OpenSpec Roadmap",
       "file_type": "document",
       "source_file": "openspec/tasks.md",
       "source_location": "L9",
-      "id": "openspec_tasks_openspec_roadmap",
       "community": 90,
-      "norm_label": "openspec roadmap"
+      "norm_label": "openspec roadmap",
+      "id": "openspec_tasks_openspec_roadmap"
     },
     {
       "label": "plan.md",
@@ -9796,15 +9904,6 @@
       "id": "v9_modelodedados9_f_tabelas_de_lookup_fundamentais"
     },
     {
-      "label": "apex-implementation-v9.md",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L1",
-      "community": 62,
-      "norm_label": "apex-implementation-v9.md",
-      "id": "devops_v9_docs_apex_implementation_v9_md"
-    },
-    {
       "label": "Planeamento de Constru\u00e7\u00e3o APEX SGUF v9",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
@@ -10106,12 +10205,132 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "devops_v9_docs_apex_implementation_v9_md",
+      "target": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "devops_v9_docs_apex_implementation_v9_md",
+      "target": "docs_apex_implementation_v9_planeamento_de_constru\u00e7\u00e3o_apex_sguf_v9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
+      "target": "docs_apex_implementation_v9_1_vis\u00e3o_geral",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
+      "target": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
+      "target": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
+      "target": "docs_apex_implementation_v9_4_pr\u00f3ximos_passos_de_execu\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
+      "target": "docs_apex_implementation_v9_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
+      "target": "docs_apex_implementation_v9_passo_1_edi\u00e7\u00e3o_e_gera\u00e7\u00e3o_local_apx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
+      "target": "docs_apex_implementation_v9_passo_2_sincroniza\u00e7\u00e3o_e_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
+      "target": "docs_apex_implementation_v9_m\u00f3dulo_1_funda\u00e7\u00e3o_mapeamento_inicial_apx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
+      "target": "docs_apex_implementation_v9_m\u00f3dulo_2_p\u00e1ginas_de_gest\u00e3o_de_candidatos_e_entidades",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
+      "target": "docs_apex_implementation_v9_m\u00f3dulo_3_automatiza\u00e7\u00f5es_e_integra\u00e7\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".agents/rules/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_rules_graphify_md",
-      "target": "rules_graphify_graphify",
-      "confidence_score": 1.0
+      "target": "rules_graphify_graphify"
     },
     {
       "relation": "contains",
@@ -10119,9 +10338,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_graphify_skill_md",
-      "target": "graphify_skill_graphify",
-      "confidence_score": 1.0
+      "target": "graphify_skill_graphify"
     },
     {
       "relation": "contains",
@@ -10129,9 +10348,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_usage",
-      "confidence_score": 1.0
+      "target": "graphify_skill_usage"
     },
     {
       "relation": "contains",
@@ -10139,9 +10358,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_what_graphify_is_for",
-      "confidence_score": 1.0
+      "target": "graphify_skill_what_graphify_is_for"
     },
     {
       "relation": "contains",
@@ -10149,9 +10368,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_what_you_must_do_when_invoked",
-      "confidence_score": 1.0
+      "target": "graphify_skill_what_you_must_do_when_invoked"
     },
     {
       "relation": "contains",
@@ -10159,9 +10378,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L561",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_interpreter_guard_for_subcommands",
-      "confidence_score": 1.0
+      "target": "graphify_skill_interpreter_guard_for_subcommands"
     },
     {
       "relation": "contains",
@@ -10169,9 +10388,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L579",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_update_and_cluster_only",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_update_and_cluster_only"
     },
     {
       "relation": "contains",
@@ -10179,9 +10398,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L585",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_query",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_graphify_query"
     },
     {
       "relation": "contains",
@@ -10189,9 +10408,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L597",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_add_and_watch",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_graphify_add_and_watch"
     },
     {
       "relation": "contains",
@@ -10199,9 +10418,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L603",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_the_commit_hook_and_native_claude_md_integration",
-      "confidence_score": 1.0
+      "target": "graphify_skill_for_the_commit_hook_and_native_claude_md_integration"
     },
     {
       "relation": "contains",
@@ -10209,9 +10428,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L609",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_honesty_rules",
-      "confidence_score": 1.0
+      "target": "graphify_skill_honesty_rules"
     },
     {
       "relation": "contains",
@@ -10219,9 +10438,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_usage",
-      "target": "graphify_skill_codeblock_1",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_1"
     },
     {
       "relation": "contains",
@@ -10229,9 +10448,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths"
     },
     {
       "relation": "contains",
@@ -10239,9 +10458,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_1_ensure_graphify_is_installed",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_1_ensure_graphify_is_installed"
     },
     {
       "relation": "contains",
@@ -10249,9 +10468,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_2_detect_files",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_2_detect_files"
     },
     {
       "relation": "contains",
@@ -10259,9 +10478,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L143",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected"
     },
     {
       "relation": "contains",
@@ -10269,9 +10488,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_3_extract_entities_and_relationships",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_3_extract_entities_and_relationships"
     },
     {
       "relation": "contains",
@@ -10279,9 +10498,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L369",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs"
     },
     {
       "relation": "contains",
@@ -10289,9 +10508,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L421",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_5_label_communities",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_5_label_communities"
     },
     {
       "relation": "contains",
@@ -10299,9 +10518,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L461",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html"
     },
     {
       "relation": "contains",
@@ -10309,9 +10528,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L481",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags",
-      "confidence_score": 1.0
+      "target": "graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags"
     },
     {
       "relation": "contains",
@@ -10319,9 +10538,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L487",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
-      "confidence_score": 1.0
+      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report"
     },
     {
       "relation": "contains",
@@ -10329,9 +10548,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_1_ensure_graphify_is_installed",
-      "target": "graphify_skill_codeblock_2",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_2"
     },
     {
       "relation": "contains",
@@ -10339,9 +10558,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_2_detect_files",
-      "target": "graphify_skill_codeblock_3",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_3"
     },
     {
       "relation": "contains",
@@ -10349,9 +10568,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_2_detect_files",
-      "target": "graphify_skill_codeblock_4",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_4"
     },
     {
       "relation": "contains",
@@ -10359,9 +10578,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L164",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_a_structural_extraction_for_code_files",
-      "confidence_score": 1.0
+      "target": "graphify_skill_part_a_structural_extraction_for_code_files"
     },
     {
       "relation": "contains",
@@ -10369,9 +10588,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L190",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "confidence_score": 1.0
+      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents"
     },
     {
       "relation": "contains",
@@ -10379,9 +10598,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
-      "confidence_score": 1.0
+      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction"
     },
     {
       "relation": "contains",
@@ -10389,9 +10608,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L168",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_part_a_structural_extraction_for_code_files",
-      "target": "graphify_skill_codeblock_5",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_5"
     },
     {
       "relation": "contains",
@@ -10399,9 +10618,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L206",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_6",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_6"
     },
     {
       "relation": "contains",
@@ -10409,9 +10628,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L237",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_7",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_7"
     },
     {
       "relation": "contains",
@@ -10419,9 +10638,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L247",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_8",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_8"
     },
     {
       "relation": "contains",
@@ -10429,9 +10648,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L267",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_9",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_9"
     },
     {
       "relation": "contains",
@@ -10439,9 +10658,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L291",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_10",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_10"
     },
     {
       "relation": "contains",
@@ -10449,9 +10668,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L304",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_11",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_11"
     },
     {
       "relation": "contains",
@@ -10459,9 +10678,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L337",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
-      "target": "graphify_skill_codeblock_12",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_12"
     },
     {
       "relation": "contains",
@@ -10469,9 +10688,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L373",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
-      "target": "graphify_skill_codeblock_13",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_13"
     },
     {
       "relation": "contains",
@@ -10479,9 +10698,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L427",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_5_label_communities",
-      "target": "graphify_skill_codeblock_14",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_14"
     },
     {
       "relation": "contains",
@@ -10489,9 +10708,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L469",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
-      "target": "graphify_skill_codeblock_15",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_15"
     },
     {
       "relation": "contains",
@@ -10499,9 +10718,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L476",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
-      "target": "graphify_skill_codeblock_16",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_16"
     },
     {
       "relation": "contains",
@@ -10509,9 +10728,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L489",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
-      "target": "graphify_skill_codeblock_17",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_17"
     },
     {
       "relation": "contains",
@@ -10519,9 +10738,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L531",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
-      "target": "graphify_skill_codeblock_18",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_18"
     },
     {
       "relation": "contains",
@@ -10529,9 +10748,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L565",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_interpreter_guard_for_subcommands",
-      "target": "graphify_skill_codeblock_19",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_19"
     },
     {
       "relation": "contains",
@@ -10539,9 +10758,9 @@
       "source_file": ".agents/skills/graphify/SKILL.md",
       "source_location": "L589",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_skill_for_graphify_query",
-      "target": "graphify_skill_codeblock_20",
-      "confidence_score": 1.0
+      "target": "graphify_skill_codeblock_20"
     },
     {
       "relation": "contains",
@@ -10549,9 +10768,9 @@
       "source_file": ".agents/skills/graphify/references/add-watch.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_graphify_references_add_watch_md",
-      "target": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "confidence_score": 1.0
+      "target": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder"
     },
     {
       "relation": "contains",
@@ -10559,9 +10778,9 @@
       "source_file": ".agents/skills/graphify/references/add-watch.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "target": "references_add_watch_for_graphify_add",
-      "confidence_score": 1.0
+      "target": "references_add_watch_for_graphify_add"
     },
     {
       "relation": "contains",
@@ -10569,9 +10788,9 @@
       "source_file": ".agents/skills/graphify/references/add-watch.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "target": "references_add_watch_for_watch",
-      "confidence_score": 1.0
+      "target": "references_add_watch_for_watch"
     },
     {
       "relation": "contains",
@@ -10579,9 +10798,9 @@
       "source_file": ".agents/skills/graphify/references/add-watch.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_add_watch_for_graphify_add",
-      "target": "references_add_watch_codeblock_1",
-      "confidence_score": 1.0
+      "target": "references_add_watch_codeblock_1"
     },
     {
       "relation": "contains",
@@ -10589,9 +10808,9 @@
       "source_file": ".agents/skills/graphify/references/add-watch.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_add_watch_for_watch",
-      "target": "references_add_watch_codeblock_2",
-      "confidence_score": 1.0
+      "target": "references_add_watch_codeblock_2"
     },
     {
       "relation": "contains",
@@ -10599,9 +10818,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_graphify_references_exports_md",
-      "target": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "confidence_score": 1.0
+      "target": "references_exports_graphify_reference_extra_exports_and_benchmark"
     },
     {
       "relation": "contains",
@@ -10609,9 +10828,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_6b_wiki_only_if_wiki_flag",
-      "confidence_score": 1.0
+      "target": "references_exports_step_6b_wiki_only_if_wiki_flag"
     },
     {
       "relation": "contains",
@@ -10619,9 +10838,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
-      "confidence_score": 1.0
+      "target": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag"
     },
     {
       "relation": "contains",
@@ -10629,9 +10848,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7b_svg_export_only_if_svg_flag",
-      "confidence_score": 1.0
+      "target": "references_exports_step_7b_svg_export_only_if_svg_flag"
     },
     {
       "relation": "contains",
@@ -10639,9 +10858,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7c_graphml_export_only_if_graphml_flag",
-      "confidence_score": 1.0
+      "target": "references_exports_step_7c_graphml_export_only_if_graphml_flag"
     },
     {
       "relation": "contains",
@@ -10649,9 +10868,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7d_mcp_server_only_if_mcp_flag",
-      "confidence_score": 1.0
+      "target": "references_exports_step_7d_mcp_server_only_if_mcp_flag"
     },
     {
       "relation": "contains",
@@ -10659,9 +10878,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000",
-      "confidence_score": 1.0
+      "target": "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000"
     },
     {
       "relation": "contains",
@@ -10669,9 +10888,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_step_6b_wiki_only_if_wiki_flag",
-      "target": "references_exports_codeblock_1",
-      "confidence_score": 1.0
+      "target": "references_exports_codeblock_1"
     },
     {
       "relation": "contains",
@@ -10679,9 +10898,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
-      "target": "references_exports_codeblock_2",
-      "confidence_score": 1.0
+      "target": "references_exports_codeblock_2"
     },
     {
       "relation": "contains",
@@ -10689,9 +10908,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
-      "target": "references_exports_codeblock_3",
-      "confidence_score": 1.0
+      "target": "references_exports_codeblock_3"
     },
     {
       "relation": "contains",
@@ -10699,9 +10918,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_step_7b_svg_export_only_if_svg_flag",
-      "target": "references_exports_codeblock_4",
-      "confidence_score": 1.0
+      "target": "references_exports_codeblock_4"
     },
     {
       "relation": "contains",
@@ -10709,9 +10928,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_step_7c_graphml_export_only_if_graphml_flag",
-      "target": "references_exports_codeblock_5",
-      "confidence_score": 1.0
+      "target": "references_exports_codeblock_5"
     },
     {
       "relation": "contains",
@@ -10719,9 +10938,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_step_7d_mcp_server_only_if_mcp_flag",
-      "target": "references_exports_codeblock_6",
-      "confidence_score": 1.0
+      "target": "references_exports_codeblock_6"
     },
     {
       "relation": "contains",
@@ -10729,9 +10948,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_step_7d_mcp_server_only_if_mcp_flag",
-      "target": "references_exports_codeblock_7",
-      "confidence_score": 1.0
+      "target": "references_exports_codeblock_7"
     },
     {
       "relation": "contains",
@@ -10739,9 +10958,9 @@
       "source_file": ".agents/skills/graphify/references/exports.md",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000",
-      "target": "references_exports_codeblock_8",
-      "confidence_score": 1.0
+      "target": "references_exports_codeblock_8"
     },
     {
       "relation": "contains",
@@ -10749,9 +10968,9 @@
       "source_file": ".agents/skills/graphify/references/extraction-spec.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_graphify_references_extraction_spec_md",
-      "target": "references_extraction_spec_graphify_reference_extraction_subagent_prompt",
-      "confidence_score": 1.0
+      "target": "references_extraction_spec_graphify_reference_extraction_subagent_prompt"
     },
     {
       "relation": "contains",
@@ -10759,9 +10978,9 @@
       "source_file": ".agents/skills/graphify/references/extraction-spec.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_extraction_spec_graphify_reference_extraction_subagent_prompt",
-      "target": "references_extraction_spec_codeblock_1",
-      "confidence_score": 1.0
+      "target": "references_extraction_spec_codeblock_1"
     },
     {
       "relation": "contains",
@@ -10769,9 +10988,9 @@
       "source_file": ".agents/skills/graphify/references/github-and-merge.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_graphify_references_github_and_merge_md",
-      "target": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
-      "confidence_score": 1.0
+      "target": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge"
     },
     {
       "relation": "contains",
@@ -10779,9 +10998,9 @@
       "source_file": ".agents/skills/graphify/references/github-and-merge.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
-      "target": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "confidence_score": 1.0
+      "target": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
     },
     {
       "relation": "contains",
@@ -10789,9 +11008,9 @@
       "source_file": ".agents/skills/graphify/references/github-and-merge.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "target": "references_github_and_merge_codeblock_1",
-      "confidence_score": 1.0
+      "target": "references_github_and_merge_codeblock_1"
     },
     {
       "relation": "contains",
@@ -10799,9 +11018,9 @@
       "source_file": ".agents/skills/graphify/references/github-and-merge.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "target": "references_github_and_merge_codeblock_2",
-      "confidence_score": 1.0
+      "target": "references_github_and_merge_codeblock_2"
     },
     {
       "relation": "contains",
@@ -10809,9 +11028,9 @@
       "source_file": ".agents/skills/graphify/references/github-and-merge.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "target": "references_github_and_merge_codeblock_3",
-      "confidence_score": 1.0
+      "target": "references_github_and_merge_codeblock_3"
     },
     {
       "relation": "contains",
@@ -10819,9 +11038,9 @@
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_graphify_references_hooks_md",
-      "target": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "confidence_score": 1.0
+      "target": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration"
     },
     {
       "relation": "contains",
@@ -10829,9 +11048,9 @@
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "target": "references_hooks_for_git_commit_hook",
-      "confidence_score": 1.0
+      "target": "references_hooks_for_git_commit_hook"
     },
     {
       "relation": "contains",
@@ -10839,9 +11058,9 @@
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "target": "references_hooks_for_native_claude_md_integration",
-      "confidence_score": 1.0
+      "target": "references_hooks_for_native_claude_md_integration"
     },
     {
       "relation": "contains",
@@ -10849,9 +11068,9 @@
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_hooks_for_git_commit_hook",
-      "target": "references_hooks_codeblock_1",
-      "confidence_score": 1.0
+      "target": "references_hooks_codeblock_1"
     },
     {
       "relation": "contains",
@@ -10859,9 +11078,9 @@
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_hooks_for_native_claude_md_integration",
-      "target": "references_hooks_codeblock_2",
-      "confidence_score": 1.0
+      "target": "references_hooks_codeblock_2"
     },
     {
       "relation": "contains",
@@ -10869,9 +11088,9 @@
       "source_file": ".agents/skills/graphify/references/hooks.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_hooks_for_native_claude_md_integration",
-      "target": "references_hooks_codeblock_3",
-      "confidence_score": 1.0
+      "target": "references_hooks_codeblock_3"
     },
     {
       "relation": "contains",
@@ -10879,9 +11098,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_graphify_references_query_md",
-      "target": "references_query_graphify_reference_query_path_explain",
-      "confidence_score": 1.0
+      "target": "references_query_graphify_reference_query_path_explain"
     },
     {
       "relation": "contains",
@@ -10889,9 +11108,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_graphify_reference_query_path_explain",
-      "target": "references_query_step_0_constrained_query_expansion_required_before_traversal",
-      "confidence_score": 1.0
+      "target": "references_query_step_0_constrained_query_expansion_required_before_traversal"
     },
     {
       "relation": "contains",
@@ -10899,9 +11118,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_graphify_reference_query_path_explain",
-      "target": "references_query_step_1_traversal",
-      "confidence_score": 1.0
+      "target": "references_query_step_1_traversal"
     },
     {
       "relation": "contains",
@@ -10909,9 +11128,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_graphify_reference_query_path_explain",
-      "target": "references_query_for_graphify_path",
-      "confidence_score": 1.0
+      "target": "references_query_for_graphify_path"
     },
     {
       "relation": "contains",
@@ -10919,9 +11138,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_graphify_reference_query_path_explain",
-      "target": "references_query_for_graphify_explain",
-      "confidence_score": 1.0
+      "target": "references_query_for_graphify_explain"
     },
     {
       "relation": "contains",
@@ -10929,9 +11148,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_step_0_constrained_query_expansion_required_before_traversal",
-      "target": "references_query_codeblock_1",
-      "confidence_score": 1.0
+      "target": "references_query_codeblock_1"
     },
     {
       "relation": "contains",
@@ -10939,9 +11158,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_step_0_constrained_query_expansion_required_before_traversal",
-      "target": "references_query_codeblock_2",
-      "confidence_score": 1.0
+      "target": "references_query_codeblock_2"
     },
     {
       "relation": "contains",
@@ -10949,9 +11168,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_step_1_traversal",
-      "target": "references_query_codeblock_3",
-      "confidence_score": 1.0
+      "target": "references_query_codeblock_3"
     },
     {
       "relation": "contains",
@@ -10959,9 +11178,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_step_1_traversal",
-      "target": "references_query_codeblock_4",
-      "confidence_score": 1.0
+      "target": "references_query_codeblock_4"
     },
     {
       "relation": "contains",
@@ -10969,9 +11188,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_for_graphify_path",
-      "target": "references_query_codeblock_5",
-      "confidence_score": 1.0
+      "target": "references_query_codeblock_5"
     },
     {
       "relation": "contains",
@@ -10979,9 +11198,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_for_graphify_path",
-      "target": "references_query_codeblock_6",
-      "confidence_score": 1.0
+      "target": "references_query_codeblock_6"
     },
     {
       "relation": "contains",
@@ -10989,9 +11208,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_for_graphify_explain",
-      "target": "references_query_codeblock_7",
-      "confidence_score": 1.0
+      "target": "references_query_codeblock_7"
     },
     {
       "relation": "contains",
@@ -10999,9 +11218,9 @@
       "source_file": ".agents/skills/graphify/references/query.md",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_query_for_graphify_explain",
-      "target": "references_query_codeblock_8",
-      "confidence_score": 1.0
+      "target": "references_query_codeblock_8"
     },
     {
       "relation": "contains",
@@ -11009,9 +11228,9 @@
       "source_file": ".agents/skills/graphify/references/transcribe.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_graphify_references_transcribe_md",
-      "target": "references_transcribe_graphify_reference_transcribe_video_and_audio",
-      "confidence_score": 1.0
+      "target": "references_transcribe_graphify_reference_transcribe_video_and_audio"
     },
     {
       "relation": "contains",
@@ -11019,9 +11238,9 @@
       "source_file": ".agents/skills/graphify/references/transcribe.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_transcribe_graphify_reference_transcribe_video_and_audio",
-      "target": "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
-      "confidence_score": 1.0
+      "target": "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
     },
     {
       "relation": "contains",
@@ -11029,9 +11248,9 @@
       "source_file": ".agents/skills/graphify/references/transcribe.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
-      "target": "references_transcribe_codeblock_1",
-      "confidence_score": 1.0
+      "target": "references_transcribe_codeblock_1"
     },
     {
       "relation": "contains",
@@ -11039,9 +11258,9 @@
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_skills_graphify_references_update_md",
-      "target": "references_update_graphify_reference_incremental_update_and_cluster_only",
-      "confidence_score": 1.0
+      "target": "references_update_graphify_reference_incremental_update_and_cluster_only"
     },
     {
       "relation": "contains",
@@ -11049,9 +11268,9 @@
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_update_graphify_reference_incremental_update_and_cluster_only",
-      "target": "references_update_for_update_incremental_re_extraction",
-      "confidence_score": 1.0
+      "target": "references_update_for_update_incremental_re_extraction"
     },
     {
       "relation": "contains",
@@ -11059,9 +11278,9 @@
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L166",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_update_graphify_reference_incremental_update_and_cluster_only",
-      "target": "references_update_for_cluster_only",
-      "confidence_score": 1.0
+      "target": "references_update_for_cluster_only"
     },
     {
       "relation": "contains",
@@ -11069,9 +11288,9 @@
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_update_for_update_incremental_re_extraction",
-      "target": "references_update_codeblock_1",
-      "confidence_score": 1.0
+      "target": "references_update_codeblock_1"
     },
     {
       "relation": "contains",
@@ -11079,9 +11298,9 @@
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_update_for_update_incremental_re_extraction",
-      "target": "references_update_codeblock_2",
-      "confidence_score": 1.0
+      "target": "references_update_codeblock_2"
     },
     {
       "relation": "contains",
@@ -11089,9 +11308,9 @@
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_update_for_update_incremental_re_extraction",
-      "target": "references_update_codeblock_3",
-      "confidence_score": 1.0
+      "target": "references_update_codeblock_3"
     },
     {
       "relation": "contains",
@@ -11099,9 +11318,9 @@
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_update_for_update_incremental_re_extraction",
-      "target": "references_update_codeblock_4",
-      "confidence_score": 1.0
+      "target": "references_update_codeblock_4"
     },
     {
       "relation": "contains",
@@ -11109,9 +11328,9 @@
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_update_for_update_incremental_re_extraction",
-      "target": "references_update_codeblock_5",
-      "confidence_score": 1.0
+      "target": "references_update_codeblock_5"
     },
     {
       "relation": "contains",
@@ -11119,9 +11338,9 @@
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_update_for_update_incremental_re_extraction",
-      "target": "references_update_codeblock_6",
-      "confidence_score": 1.0
+      "target": "references_update_codeblock_6"
     },
     {
       "relation": "contains",
@@ -11129,9 +11348,9 @@
       "source_file": ".agents/skills/graphify/references/update.md",
       "source_location": "L170",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "references_update_for_cluster_only",
-      "target": "references_update_codeblock_7",
-      "confidence_score": 1.0
+      "target": "references_update_codeblock_7"
     },
     {
       "relation": "contains",
@@ -11139,9 +11358,9 @@
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_workflows_graphify_md",
-      "target": "workflows_graphify_workflow_graphify",
-      "confidence_score": 1.0
+      "target": "workflows_graphify_workflow_graphify"
     },
     {
       "relation": "contains",
@@ -11149,9 +11368,9 @@
       "source_file": ".codex/hooks.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_hooks_json",
-      "target": "codex_hooks_hooks",
-      "confidence_score": 1.0
+      "target": "codex_hooks_hooks"
     },
     {
       "relation": "contains",
@@ -11159,9 +11378,9 @@
       "source_file": ".codex/hooks.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_hooks_hooks",
-      "target": "codex_hooks_hooks_pretooluse",
-      "confidence_score": 1.0
+      "target": "codex_hooks_hooks_pretooluse"
     },
     {
       "relation": "contains",
@@ -11169,9 +11388,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_md",
-      "target": "apex_agents_project_instructions_apex",
-      "confidence_score": 1.0
+      "target": "apex_agents_project_instructions_apex"
     },
     {
       "relation": "contains",
@@ -11179,9 +11398,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apex_agents_project_instructions_apex",
-      "target": "apex_agents_product_vision",
-      "confidence_score": 1.0
+      "target": "apex_agents_product_vision"
     },
     {
       "relation": "contains",
@@ -11189,9 +11408,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apex_agents_project_instructions_apex",
-      "target": "apex_agents_tech_stack",
-      "confidence_score": 1.0
+      "target": "apex_agents_tech_stack"
     },
     {
       "relation": "contains",
@@ -11199,9 +11418,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apex_agents_project_instructions_apex",
-      "target": "apex_agents_architecture",
-      "confidence_score": 1.0
+      "target": "apex_agents_architecture"
     },
     {
       "relation": "contains",
@@ -11209,9 +11428,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apex_agents_project_instructions_apex",
-      "target": "apex_agents_build_run_commands",
-      "confidence_score": 1.0
+      "target": "apex_agents_build_run_commands"
     },
     {
       "relation": "contains",
@@ -11219,9 +11438,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apex_agents_project_instructions_apex",
-      "target": "apex_agents_code_standards",
-      "confidence_score": 1.0
+      "target": "apex_agents_code_standards"
     },
     {
       "relation": "contains",
@@ -11229,9 +11448,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apex_agents_project_instructions_apex",
-      "target": "apex_agents_quality_gates",
-      "confidence_score": 1.0
+      "target": "apex_agents_quality_gates"
     },
     {
       "relation": "contains",
@@ -11239,9 +11458,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "apex_agents_project_instructions_apex",
-      "target": "apex_agents_graphify",
-      "confidence_score": 1.0
+      "target": "apex_agents_graphify"
     },
     {
       "relation": "contains",
@@ -11249,9 +11468,9 @@
       "source_file": "GEMINI.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gemini_md",
-      "target": "apex_gemini_graphify",
-      "confidence_score": 1.0
+      "target": "apex_gemini_graphify"
     },
     {
       "relation": "contains",
@@ -11259,9 +11478,9 @@
       "source_file": "openspec/tasks.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_tasks_md",
-      "target": "openspec_tasks_openspec_roadmap",
-      "confidence_score": 1.0
+      "target": "openspec_tasks_openspec_roadmap"
     },
     {
       "relation": "contains",
@@ -20237,16 +20456,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "devops_v9_docs_apex_implementation_v9_md",
-      "target": "docs_apex_implementation_v9_planeamento_de_constru\u00e7\u00e3o_apex_sguf_v9"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -20525,5 +20734,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "559fad1b1d9061b08f762292e19f5901979d45d7"
+  "built_at_commit": "238cc703e08be1bfc9f59375363204f9323d70db"
 }

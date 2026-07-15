@@ -1,16 +1,16 @@
 # Graph Report - apex  (2026-07-15)
 
 ## Corpus Check
-- 134 files · ~127,108 words
+- 135 files · ~302,459 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1122 nodes · 1042 edges · 91 communities (85 shown, 6 thin omitted)
+- 1133 nodes · 1053 edges · 91 communities (85 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `559fad1b`
+- Built from commit: `238cc703`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -366,8 +366,8 @@ Cohesion: 0.40
 Nodes (4): Done When, Goal, Planeamento da Biblioteca de Guias APEX (SGUF v9), Tasks
 
 ### Community 62 - "Community 62"
-Cohesion: 0.40
-Nodes (4): Done When, Goal, Planeamento de Construção APEX SGUF v9, Tasks
+Cohesion: 0.12
+Nodes (15): 1. Visão Geral, 2. Fluxo de Trabalho do Agente de IA, 3. Planeamento da Infraestrutura SGUF v9, 4. Próximos Passos de Execução, code:mermaid (graph TD), Done When, Estratégia de Desenvolvimento e Deploy com APEXlang (SGUF v9), Goal (+7 more)
 
 ### Community 63 - "Community 63"
 Cohesion: 0.40
@@ -430,7 +430,7 @@ Cohesion: 0.50
 Nodes (3): code:bash (GRAPHIFY_WHISPER_MODEL=base  # or whatever --whisper-model t), graphify reference: transcribe video and audio, Step 2.5 - Transcribe video / audio files (only if video files detected)
 
 ## Knowledge Gaps
-- **700 isolated node(s):** `graphify`, `code:block1 (/graphify                                             # full)`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)`, `code:bash (# Detect the correct Python interpreter (handles uv tool, pi)` (+695 more)
+- **708 isolated node(s):** `1. Visão Geral`, `code:mermaid (graph TD)`, `Passo 1: Edição e Geração Local (`.apx`)`, `Passo 2: Sincronização e Deploy`, `Módulo 1: Fundação & Mapeamento Inicial (.apx)` (+703 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -439,10 +439,10 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `3. Diagrama de Esquema` connect `Community 53` to `Community 48`, `Community 18`, `Community 54`, `Community 59`, `Community 60`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **Why does `F. Tabelas de Lookup (Domínios)` connect `Community 18` to `Community 53`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **What connects `graphify`, `code:block1 (/graphify                                             # full)`, `What graphify is for` to the rest of the system?**
-  _700 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `3. Diagrama de Esquema` connect `Community 68` to `Community 64`, `Community 65`, `Community 49`, `Community 50`, `Community 19`, `Community 55`?**
+  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+- **What connects `1. Visão Geral`, `code:mermaid (graph TD)`, `Passo 1: Edição e Geração Local (`.apx`)` to the rest of the system?**
+  _708 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
