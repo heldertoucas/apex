@@ -4,310 +4,409 @@
   "graph": {},
   "nodes": [
     {
-      "label": "AGENTS.md",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L1",
-      "id": "agents_md",
-      "community": 81,
-      "norm_label": "agents.md"
-    },
-    {
-      "label": "Project Instructions: apex",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L1",
-      "id": "apex_agents_project_instructions_apex",
-      "community": 81,
-      "norm_label": "project instructions: apex"
-    },
-    {
-      "label": "Product Vision",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L3",
-      "id": "apex_agents_product_vision",
-      "community": 81,
-      "norm_label": "product vision"
-    },
-    {
-      "label": "Tech Stack",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L7",
-      "id": "apex_agents_tech_stack",
-      "community": 81,
-      "norm_label": "tech stack"
-    },
-    {
-      "label": "Architecture",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L14",
-      "id": "apex_agents_architecture",
-      "community": 81,
-      "norm_label": "architecture"
-    },
-    {
-      "label": "Build & Run Commands",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L20",
-      "id": "apex_agents_build_run_commands",
-      "community": 81,
-      "norm_label": "build & run commands"
-    },
-    {
-      "label": "Code Standards",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L25",
-      "id": "apex_agents_code_standards",
-      "community": 81,
-      "norm_label": "code standards"
-    },
-    {
-      "label": "Quality Gates",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L31",
-      "id": "apex_agents_quality_gates",
-      "community": 81,
-      "norm_label": "quality gates"
-    },
-    {
-      "label": "graphify",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "L39",
-      "id": "apex_agents_graphify",
-      "community": 81,
-      "norm_label": "graphify"
-    },
-    {
-      "label": "diagrama-esquema-v9.md",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/diagrama-esquema-v9.md",
-      "source_location": "L1",
-      "id": "devops_v9_docs_diagrama_esquema_v9_md",
-      "community": 92,
-      "norm_label": "diagrama-esquema-v9.md"
-    },
-    {
-      "label": "Diagrama Entidade-Rela\u00e7\u00e3o (ERD) Completo: SGUF v9",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/diagrama-esquema-v9.md",
-      "source_location": "L1",
-      "id": "docs_diagrama_esquema_v9_diagrama_entidade_rela\u00e7\u00e3o_erd_completo_sguf_v9",
-      "community": 92,
-      "norm_label": "diagrama entidade-relacao (erd) completo: sguf v9"
-    },
-    {
-      "label": "code:mermaid (erDiagram)",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/diagrama-esquema-v9.md",
-      "source_location": "L5",
-      "id": "docs_diagrama_esquema_v9_codeblock_1",
-      "community": 92,
-      "norm_label": "code:mermaid (erdiagram)"
-    },
-    {
-      "label": "fluxos-operacionais-v9.md",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
-      "source_location": "L1",
-      "id": "devops_v9_docs_fluxos_operacionais_v9_md",
-      "community": 91,
-      "norm_label": "fluxos-operacionais-v9.md"
-    },
-    {
-      "label": "Fluxos Operacionais e Modelo de Dados: SGUF v9",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
-      "source_location": "L1",
-      "id": "docs_fluxos_operacionais_v9_fluxos_operacionais_e_modelo_de_dados_sguf_v9",
-      "community": 91,
-      "norm_label": "fluxos operacionais e modelo de dados: sguf v9"
-    },
-    {
-      "label": "1. Arquitetura do Modelo de Dados (SGUF v9)",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
-      "source_location": "L7",
-      "id": "docs_fluxos_operacionais_v9_1_arquitetura_do_modelo_de_dados_sguf_v9",
-      "community": 91,
-      "norm_label": "1. arquitetura do modelo de dados (sguf v9)"
-    },
-    {
-      "label": "Principais Tabelas por Dom\u00ednio",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
-      "source_location": "L25",
-      "id": "docs_fluxos_operacionais_v9_principais_tabelas_por_dom\u00ednio",
-      "community": 91,
-      "norm_label": "principais tabelas por dominio"
-    },
-    {
-      "label": "2. Fluxo Operacional 1: Cria\u00e7\u00e3o de Cursos e A\u00e7\u00f5es (Turmas)",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
-      "source_location": "L41",
-      "id": "docs_fluxos_operacionais_v9_2_fluxo_operacional_1_cria\u00e7\u00e3o_de_cursos_e_a\u00e7\u00f5es_turmas",
-      "community": 91,
-      "norm_label": "2. fluxo operacional 1: criacao de cursos e acoes (turmas)"
-    },
-    {
-      "label": "Narrativa do Fluxo",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
-      "source_location": "L43",
-      "id": "docs_fluxos_operacionais_v9_narrativa_do_fluxo",
-      "community": 91,
-      "norm_label": "narrativa do fluxo"
-    },
-    {
-      "label": "3. Fluxo Operacional 2: Inscri\u00e7\u00e3o dos Interessados (Candidatura)",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
-      "source_location": "L57",
-      "id": "docs_fluxos_operacionais_v9_3_fluxo_operacional_2_inscri\u00e7\u00e3o_dos_interessados_candidatura",
-      "community": 91,
-      "norm_label": "3. fluxo operacional 2: inscricao dos interessados (candidatura)"
-    },
-    {
-      "label": "Narrativa do Fluxo",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
-      "source_location": "L59",
-      "id": "docs_fluxos_operacionais_v9_narrativa_do_fluxo_59",
-      "community": 91,
-      "norm_label": "narrativa do fluxo"
-    },
-    {
-      "label": "4. Fluxo Operacional 3: Sele\u00e7\u00e3o e Matr\u00edcula dos Inscritos",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
-      "source_location": "L75",
-      "id": "docs_fluxos_operacionais_v9_4_fluxo_operacional_3_sele\u00e7\u00e3o_e_matr\u00edcula_dos_inscritos",
-      "community": 91,
-      "norm_label": "4. fluxo operacional 3: selecao e matricula dos inscritos"
-    },
-    {
-      "label": "Narrativa do Fluxo",
-      "file_type": "document",
-      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
-      "source_location": "L77",
-      "id": "docs_fluxos_operacionais_v9_narrativa_do_fluxo_77",
-      "community": 91,
-      "norm_label": "narrativa do fluxo"
-    },
-    {
       "label": "apex-implementation-v9.md",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L1",
+      "id": "devops_v9_docs_apex_implementation_v9_md",
       "community": 62,
-      "norm_label": "apex-implementation-v9.md",
-      "id": "devops_v9_docs_apex_implementation_v9_md"
+      "norm_label": "apex-implementation-v9.md"
     },
     {
       "label": "Estrat\u00e9gia de Desenvolvimento e Deploy com APEXlang (SGUF v9)",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L1",
+      "id": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
       "community": 62,
-      "norm_label": "estrategia de desenvolvimento e deploy com apexlang (sguf v9)",
-      "id": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9"
+      "norm_label": "estrategia de desenvolvimento e deploy com apexlang (sguf v9)"
     },
     {
       "label": "1. Vis\u00e3o Geral",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L3",
+      "id": "docs_apex_implementation_v9_1_vis\u00e3o_geral",
       "community": 62,
-      "norm_label": "1. visao geral",
-      "id": "docs_apex_implementation_v9_1_vis\u00e3o_geral"
+      "norm_label": "1. visao geral"
     },
     {
       "label": "2. Fluxo de Trabalho do Agente de IA",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L8",
+      "id": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
       "community": 62,
-      "norm_label": "2. fluxo de trabalho do agente de ia",
-      "id": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia"
+      "norm_label": "2. fluxo de trabalho do agente de ia"
     },
     {
       "label": "code:mermaid (graph TD)",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L12",
+      "id": "docs_apex_implementation_v9_codeblock_1",
       "community": 62,
-      "norm_label": "code:mermaid (graph td)",
-      "id": "docs_apex_implementation_v9_codeblock_1"
+      "norm_label": "code:mermaid (graph td)"
     },
     {
       "label": "Passo 1: Edi\u00e7\u00e3o e Gera\u00e7\u00e3o Local (`.apx`)",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L20",
+      "id": "docs_apex_implementation_v9_passo_1_edi\u00e7\u00e3o_e_gera\u00e7\u00e3o_local_apx",
       "community": 62,
-      "norm_label": "passo 1: edicao e geracao local (`.apx`)",
-      "id": "docs_apex_implementation_v9_passo_1_edi\u00e7\u00e3o_e_gera\u00e7\u00e3o_local_apx"
+      "norm_label": "passo 1: edicao e geracao local (`.apx`)"
     },
     {
       "label": "Passo 2: Sincroniza\u00e7\u00e3o e Deploy",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L26",
+      "id": "docs_apex_implementation_v9_passo_2_sincroniza\u00e7\u00e3o_e_deploy",
       "community": 62,
-      "norm_label": "passo 2: sincronizacao e deploy",
-      "id": "docs_apex_implementation_v9_passo_2_sincroniza\u00e7\u00e3o_e_deploy"
+      "norm_label": "passo 2: sincronizacao e deploy"
     },
     {
       "label": "3. Planeamento da Infraestrutura SGUF v9",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L33",
+      "id": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
       "community": 62,
-      "norm_label": "3. planeamento da infraestrutura sguf v9",
-      "id": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9"
+      "norm_label": "3. planeamento da infraestrutura sguf v9"
     },
     {
       "label": "M\u00f3dulo 1: Funda\u00e7\u00e3o & Mapeamento Inicial (.apx)",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L37",
+      "id": "docs_apex_implementation_v9_m\u00f3dulo_1_funda\u00e7\u00e3o_mapeamento_inicial_apx",
       "community": 62,
-      "norm_label": "modulo 1: fundacao & mapeamento inicial (.apx)",
-      "id": "docs_apex_implementation_v9_m\u00f3dulo_1_funda\u00e7\u00e3o_mapeamento_inicial_apx"
+      "norm_label": "modulo 1: fundacao & mapeamento inicial (.apx)"
     },
     {
       "label": "M\u00f3dulo 2: P\u00e1ginas de Gest\u00e3o de Candidatos e Entidades",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L43",
+      "id": "docs_apex_implementation_v9_m\u00f3dulo_2_p\u00e1ginas_de_gest\u00e3o_de_candidatos_e_entidades",
       "community": 62,
-      "norm_label": "modulo 2: paginas de gestao de candidatos e entidades",
-      "id": "docs_apex_implementation_v9_m\u00f3dulo_2_p\u00e1ginas_de_gest\u00e3o_de_candidatos_e_entidades"
+      "norm_label": "modulo 2: paginas de gestao de candidatos e entidades"
     },
     {
       "label": "M\u00f3dulo 3: Automatiza\u00e7\u00f5es e Integra\u00e7\u00f5es",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L49",
+      "id": "docs_apex_implementation_v9_m\u00f3dulo_3_automatiza\u00e7\u00f5es_e_integra\u00e7\u00f5es",
       "community": 62,
-      "norm_label": "modulo 3: automatizacoes e integracoes",
-      "id": "docs_apex_implementation_v9_m\u00f3dulo_3_automatiza\u00e7\u00f5es_e_integra\u00e7\u00f5es"
+      "norm_label": "modulo 3: automatizacoes e integracoes"
     },
     {
       "label": "4. Pr\u00f3ximos Passos de Execu\u00e7\u00e3o",
       "file_type": "document",
       "source_file": "devops/v9/docs/apex-implementation-v9.md",
       "source_location": "L57",
+      "id": "docs_apex_implementation_v9_4_pr\u00f3ximos_passos_de_execu\u00e7\u00e3o",
       "community": 62,
-      "norm_label": "4. proximos passos de execucao",
-      "id": "docs_apex_implementation_v9_4_pr\u00f3ximos_passos_de_execu\u00e7\u00e3o"
+      "norm_label": "4. proximos passos de execucao"
+    },
+    {
+      "label": "5. D\u00favidas e Explora\u00e7\u00f5es Registadas",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L64",
+      "id": "docs_apex_implementation_v9_5_d\u00favidas_e_explora\u00e7\u00f5es_registadas",
+      "community": 62,
+      "norm_label": "5. duvidas e exploracoes registadas"
+    },
+    {
+      "label": "duvidas-planeamento-v9.md",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L1",
+      "id": "devops_v9_docs_duvidas_planeamento_v9_md",
+      "community": 93,
+      "norm_label": "duvidas-planeamento-v9.md"
+    },
+    {
+      "label": "Quest\u00f5es Pendentes e Explora\u00e7\u00f5es (SGUF v9)",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L1",
+      "id": "docs_duvidas_planeamento_v9_quest\u00f5es_pendentes_e_explora\u00e7\u00f5es_sguf_v9",
+      "community": 93,
+      "norm_label": "questoes pendentes e exploracoes (sguf v9)"
+    },
+    {
+      "label": "1. Registo de D\u00favidas & An\u00e1lise T\u00e9cnica",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L7",
+      "id": "docs_duvidas_planeamento_v9_1_registo_de_d\u00favidas_an\u00e1lise_t\u00e9cnica",
+      "community": 93,
+      "norm_label": "1. registo de duvidas & analise tecnica"
+    },
+    {
+      "label": "\u2753 D\u00favida 1: Liga\u00e7\u00e3o ao SIGO (BD Atual do Minist\u00e9rio da Educa\u00e7\u00e3o)",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L9",
+      "id": "docs_duvidas_planeamento_v9_d\u00favida_1_liga\u00e7\u00e3o_ao_sigo_bd_atual_do_minist\u00e9rio_da_educa\u00e7\u00e3o",
+      "community": 93,
+      "norm_label": "\u2753 duvida 1: ligacao ao sigo (bd atual do ministerio da educacao)"
+    },
+    {
+      "label": "\u2753 D\u00favida 2: Integra\u00e7\u00e3o do Processo Atual de Certifica\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L16",
+      "id": "docs_duvidas_planeamento_v9_d\u00favida_2_integra\u00e7\u00e3o_do_processo_atual_de_certifica\u00e7\u00e3o",
+      "community": 93,
+      "norm_label": "\u2753 duvida 2: integracao do processo atual de certificacao"
+    },
+    {
+      "label": "\u2753 D\u00favida 3: Liga\u00e7\u00e3o aos Quizzes de Avalia\u00e7\u00e3o do Futuro Digital",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L22",
+      "id": "docs_duvidas_planeamento_v9_d\u00favida_3_liga\u00e7\u00e3o_aos_quizzes_de_avalia\u00e7\u00e3o_do_futuro_digital",
+      "community": 93,
+      "norm_label": "\u2753 duvida 3: ligacao aos quizzes de avaliacao do futuro digital"
+    },
+    {
+      "label": "\u2753 D\u00favida 4: Liga\u00e7\u00e3o ao Registo de Avalia\u00e7\u00f5es do Portal Futuro Digital",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L28",
+      "id": "docs_duvidas_planeamento_v9_d\u00favida_4_liga\u00e7\u00e3o_ao_registo_de_avalia\u00e7\u00f5es_do_portal_futuro_digital",
+      "community": 93,
+      "norm_label": "\u2753 duvida 4: ligacao ao registo de avaliacoes do portal futuro digital"
+    },
+    {
+      "label": "\u2753 D\u00favida 5: Funcionamento do Estado do Participante",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L34",
+      "id": "docs_duvidas_planeamento_v9_d\u00favida_5_funcionamento_do_estado_do_participante",
+      "community": 93,
+      "norm_label": "\u2753 duvida 5: funcionamento do estado do participante"
+    },
+    {
+      "label": "\u2753 D\u00favida 6: Melhoria do Registo de Presen\u00e7as e Comunica\u00e7\u00f5es por E-Mail",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L40",
+      "id": "docs_duvidas_planeamento_v9_d\u00favida_6_melhoria_do_registo_de_presen\u00e7as_e_comunica\u00e7\u00f5es_por_e_mail",
+      "community": 93,
+      "norm_label": "\u2753 duvida 6: melhoria do registo de presencas e comunicacoes por e-mail"
+    },
+    {
+      "label": "2. Roadmap de Resolu\u00e7\u00e3o (Tarefas)",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L48",
+      "id": "docs_duvidas_planeamento_v9_2_roadmap_de_resolu\u00e7\u00e3o_tarefas",
+      "community": 93,
+      "norm_label": "2. roadmap de resolucao (tarefas)"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "community": 81,
+      "norm_label": "agents.md",
+      "id": "agents_md"
+    },
+    {
+      "label": "Project Instructions: apex",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "community": 81,
+      "norm_label": "project instructions: apex",
+      "id": "apex_agents_project_instructions_apex"
+    },
+    {
+      "label": "Product Vision",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L3",
+      "community": 81,
+      "norm_label": "product vision",
+      "id": "apex_agents_product_vision"
+    },
+    {
+      "label": "Tech Stack",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L7",
+      "community": 81,
+      "norm_label": "tech stack",
+      "id": "apex_agents_tech_stack"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L14",
+      "community": 81,
+      "norm_label": "architecture",
+      "id": "apex_agents_architecture"
+    },
+    {
+      "label": "Build & Run Commands",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L20",
+      "community": 81,
+      "norm_label": "build & run commands",
+      "id": "apex_agents_build_run_commands"
+    },
+    {
+      "label": "Code Standards",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L25",
+      "community": 81,
+      "norm_label": "code standards",
+      "id": "apex_agents_code_standards"
+    },
+    {
+      "label": "Quality Gates",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L31",
+      "community": 81,
+      "norm_label": "quality gates",
+      "id": "apex_agents_quality_gates"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L39",
+      "community": 81,
+      "norm_label": "graphify",
+      "id": "apex_agents_graphify"
+    },
+    {
+      "label": "diagrama-esquema-v9.md",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/diagrama-esquema-v9.md",
+      "source_location": "L1",
+      "community": 92,
+      "norm_label": "diagrama-esquema-v9.md",
+      "id": "devops_v9_docs_diagrama_esquema_v9_md"
+    },
+    {
+      "label": "Diagrama Entidade-Rela\u00e7\u00e3o (ERD) Completo: SGUF v9",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/diagrama-esquema-v9.md",
+      "source_location": "L1",
+      "community": 92,
+      "norm_label": "diagrama entidade-relacao (erd) completo: sguf v9",
+      "id": "docs_diagrama_esquema_v9_diagrama_entidade_rela\u00e7\u00e3o_erd_completo_sguf_v9"
+    },
+    {
+      "label": "code:mermaid (erDiagram)",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/diagrama-esquema-v9.md",
+      "source_location": "L5",
+      "community": 92,
+      "norm_label": "code:mermaid (erdiagram)",
+      "id": "docs_diagrama_esquema_v9_codeblock_1"
+    },
+    {
+      "label": "fluxos-operacionais-v9.md",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
+      "source_location": "L1",
+      "community": 91,
+      "norm_label": "fluxos-operacionais-v9.md",
+      "id": "devops_v9_docs_fluxos_operacionais_v9_md"
+    },
+    {
+      "label": "Fluxos Operacionais e Modelo de Dados: SGUF v9",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
+      "source_location": "L1",
+      "community": 91,
+      "norm_label": "fluxos operacionais e modelo de dados: sguf v9",
+      "id": "docs_fluxos_operacionais_v9_fluxos_operacionais_e_modelo_de_dados_sguf_v9"
+    },
+    {
+      "label": "1. Arquitetura do Modelo de Dados (SGUF v9)",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
+      "source_location": "L7",
+      "community": 91,
+      "norm_label": "1. arquitetura do modelo de dados (sguf v9)",
+      "id": "docs_fluxos_operacionais_v9_1_arquitetura_do_modelo_de_dados_sguf_v9"
+    },
+    {
+      "label": "Principais Tabelas por Dom\u00ednio",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
+      "source_location": "L25",
+      "community": 91,
+      "norm_label": "principais tabelas por dominio",
+      "id": "docs_fluxos_operacionais_v9_principais_tabelas_por_dom\u00ednio"
+    },
+    {
+      "label": "2. Fluxo Operacional 1: Cria\u00e7\u00e3o de Cursos e A\u00e7\u00f5es (Turmas)",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
+      "source_location": "L41",
+      "community": 91,
+      "norm_label": "2. fluxo operacional 1: criacao de cursos e acoes (turmas)",
+      "id": "docs_fluxos_operacionais_v9_2_fluxo_operacional_1_cria\u00e7\u00e3o_de_cursos_e_a\u00e7\u00f5es_turmas"
+    },
+    {
+      "label": "Narrativa do Fluxo",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
+      "source_location": "L43",
+      "community": 91,
+      "norm_label": "narrativa do fluxo",
+      "id": "docs_fluxos_operacionais_v9_narrativa_do_fluxo"
+    },
+    {
+      "label": "3. Fluxo Operacional 2: Inscri\u00e7\u00e3o dos Interessados (Candidatura)",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
+      "source_location": "L57",
+      "community": 91,
+      "norm_label": "3. fluxo operacional 2: inscricao dos interessados (candidatura)",
+      "id": "docs_fluxos_operacionais_v9_3_fluxo_operacional_2_inscri\u00e7\u00e3o_dos_interessados_candidatura"
+    },
+    {
+      "label": "Narrativa do Fluxo",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
+      "source_location": "L59",
+      "community": 91,
+      "norm_label": "narrativa do fluxo",
+      "id": "docs_fluxos_operacionais_v9_narrativa_do_fluxo_59"
+    },
+    {
+      "label": "4. Fluxo Operacional 3: Sele\u00e7\u00e3o e Matr\u00edcula dos Inscritos",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
+      "source_location": "L75",
+      "community": 91,
+      "norm_label": "4. fluxo operacional 3: selecao e matricula dos inscritos",
+      "id": "docs_fluxos_operacionais_v9_4_fluxo_operacional_3_sele\u00e7\u00e3o_e_matr\u00edcula_dos_inscritos"
+    },
+    {
+      "label": "Narrativa do Fluxo",
+      "file_type": "document",
+      "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
+      "source_location": "L77",
+      "community": 91,
+      "norm_label": "narrativa do fluxo",
+      "id": "docs_fluxos_operacionais_v9_narrativa_do_fluxo_77"
     },
     {
       "label": "graphify.md",
@@ -10322,6 +10421,226 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "devops_v9_docs_apex_implementation_v9_md",
+      "target": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "devops_v9_docs_apex_implementation_v9_md",
+      "target": "docs_apex_implementation_v9_planeamento_de_constru\u00e7\u00e3o_apex_sguf_v9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
+      "target": "docs_apex_implementation_v9_1_vis\u00e3o_geral"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
+      "target": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
+      "target": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
+      "target": "docs_apex_implementation_v9_4_pr\u00f3ximos_passos_de_execu\u00e7\u00e3o"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
+      "target": "docs_apex_implementation_v9_5_d\u00favidas_e_explora\u00e7\u00f5es_registadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
+      "target": "docs_apex_implementation_v9_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
+      "target": "docs_apex_implementation_v9_passo_1_edi\u00e7\u00e3o_e_gera\u00e7\u00e3o_local_apx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
+      "target": "docs_apex_implementation_v9_passo_2_sincroniza\u00e7\u00e3o_e_deploy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
+      "target": "docs_apex_implementation_v9_m\u00f3dulo_1_funda\u00e7\u00e3o_mapeamento_inicial_apx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
+      "target": "docs_apex_implementation_v9_m\u00f3dulo_2_p\u00e1ginas_de_gest\u00e3o_de_candidatos_e_entidades"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/apex-implementation-v9.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
+      "target": "docs_apex_implementation_v9_m\u00f3dulo_3_automatiza\u00e7\u00f5es_e_integra\u00e7\u00f5es"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "devops_v9_docs_duvidas_planeamento_v9_md",
+      "target": "docs_duvidas_planeamento_v9_quest\u00f5es_pendentes_e_explora\u00e7\u00f5es_sguf_v9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_duvidas_planeamento_v9_quest\u00f5es_pendentes_e_explora\u00e7\u00f5es_sguf_v9",
+      "target": "docs_duvidas_planeamento_v9_1_registo_de_d\u00favidas_an\u00e1lise_t\u00e9cnica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_duvidas_planeamento_v9_quest\u00f5es_pendentes_e_explora\u00e7\u00f5es_sguf_v9",
+      "target": "docs_duvidas_planeamento_v9_2_roadmap_de_resolu\u00e7\u00e3o_tarefas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_duvidas_planeamento_v9_1_registo_de_d\u00favidas_an\u00e1lise_t\u00e9cnica",
+      "target": "docs_duvidas_planeamento_v9_d\u00favida_1_liga\u00e7\u00e3o_ao_sigo_bd_atual_do_minist\u00e9rio_da_educa\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_duvidas_planeamento_v9_1_registo_de_d\u00favidas_an\u00e1lise_t\u00e9cnica",
+      "target": "docs_duvidas_planeamento_v9_d\u00favida_2_integra\u00e7\u00e3o_do_processo_atual_de_certifica\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_duvidas_planeamento_v9_1_registo_de_d\u00favidas_an\u00e1lise_t\u00e9cnica",
+      "target": "docs_duvidas_planeamento_v9_d\u00favida_3_liga\u00e7\u00e3o_aos_quizzes_de_avalia\u00e7\u00e3o_do_futuro_digital",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "docs_duvidas_planeamento_v9_1_registo_de_d\u00favidas_an\u00e1lise_t\u00e9cnica",
+      "target": "docs_duvidas_planeamento_v9_d\u00favida_4_liga\u00e7\u00e3o_ao_registo_de_avalia\u00e7\u00f5es_do_portal_futuro_digital",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "docs_duvidas_planeamento_v9_1_registo_de_d\u00favidas_an\u00e1lise_t\u00e9cnica",
+      "target": "docs_duvidas_planeamento_v9_d\u00favida_5_funcionamento_do_estado_do_participante",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "devops/v9/docs/duvidas-planeamento-v9.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "docs_duvidas_planeamento_v9_1_registo_de_d\u00favidas_an\u00e1lise_t\u00e9cnica",
+      "target": "docs_duvidas_planeamento_v9_d\u00favida_6_melhoria_do_registo_de_presen\u00e7as_e_comunica\u00e7\u00f5es_por_e_mail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -10405,9 +10724,9 @@
       "source_file": "devops/v9/docs/diagrama-esquema-v9.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "devops_v9_docs_diagrama_esquema_v9_md",
-      "target": "docs_diagrama_esquema_v9_diagrama_entidade_rela\u00e7\u00e3o_erd_completo_sguf_v9",
-      "confidence_score": 1.0
+      "target": "docs_diagrama_esquema_v9_diagrama_entidade_rela\u00e7\u00e3o_erd_completo_sguf_v9"
     },
     {
       "relation": "contains",
@@ -10415,9 +10734,9 @@
       "source_file": "devops/v9/docs/diagrama-esquema-v9.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_diagrama_esquema_v9_diagrama_entidade_rela\u00e7\u00e3o_erd_completo_sguf_v9",
-      "target": "docs_diagrama_esquema_v9_codeblock_1",
-      "confidence_score": 1.0
+      "target": "docs_diagrama_esquema_v9_codeblock_1"
     },
     {
       "relation": "contains",
@@ -10425,9 +10744,9 @@
       "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "devops_v9_docs_fluxos_operacionais_v9_md",
-      "target": "docs_fluxos_operacionais_v9_fluxos_operacionais_e_modelo_de_dados_sguf_v9",
-      "confidence_score": 1.0
+      "target": "docs_fluxos_operacionais_v9_fluxos_operacionais_e_modelo_de_dados_sguf_v9"
     },
     {
       "relation": "contains",
@@ -10435,9 +10754,9 @@
       "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_fluxos_operacionais_v9_fluxos_operacionais_e_modelo_de_dados_sguf_v9",
-      "target": "docs_fluxos_operacionais_v9_1_arquitetura_do_modelo_de_dados_sguf_v9",
-      "confidence_score": 1.0
+      "target": "docs_fluxos_operacionais_v9_1_arquitetura_do_modelo_de_dados_sguf_v9"
     },
     {
       "relation": "contains",
@@ -10445,9 +10764,9 @@
       "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_fluxos_operacionais_v9_fluxos_operacionais_e_modelo_de_dados_sguf_v9",
-      "target": "docs_fluxos_operacionais_v9_2_fluxo_operacional_1_cria\u00e7\u00e3o_de_cursos_e_a\u00e7\u00f5es_turmas",
-      "confidence_score": 1.0
+      "target": "docs_fluxos_operacionais_v9_2_fluxo_operacional_1_cria\u00e7\u00e3o_de_cursos_e_a\u00e7\u00f5es_turmas"
     },
     {
       "relation": "contains",
@@ -10455,9 +10774,9 @@
       "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_fluxos_operacionais_v9_fluxos_operacionais_e_modelo_de_dados_sguf_v9",
-      "target": "docs_fluxos_operacionais_v9_3_fluxo_operacional_2_inscri\u00e7\u00e3o_dos_interessados_candidatura",
-      "confidence_score": 1.0
+      "target": "docs_fluxos_operacionais_v9_3_fluxo_operacional_2_inscri\u00e7\u00e3o_dos_interessados_candidatura"
     },
     {
       "relation": "contains",
@@ -10465,9 +10784,9 @@
       "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_fluxos_operacionais_v9_fluxos_operacionais_e_modelo_de_dados_sguf_v9",
-      "target": "docs_fluxos_operacionais_v9_4_fluxo_operacional_3_sele\u00e7\u00e3o_e_matr\u00edcula_dos_inscritos",
-      "confidence_score": 1.0
+      "target": "docs_fluxos_operacionais_v9_4_fluxo_operacional_3_sele\u00e7\u00e3o_e_matr\u00edcula_dos_inscritos"
     },
     {
       "relation": "contains",
@@ -10475,9 +10794,9 @@
       "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_fluxos_operacionais_v9_1_arquitetura_do_modelo_de_dados_sguf_v9",
-      "target": "docs_fluxos_operacionais_v9_principais_tabelas_por_dom\u00ednio",
-      "confidence_score": 1.0
+      "target": "docs_fluxos_operacionais_v9_principais_tabelas_por_dom\u00ednio"
     },
     {
       "relation": "contains",
@@ -10485,9 +10804,9 @@
       "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_fluxos_operacionais_v9_2_fluxo_operacional_1_cria\u00e7\u00e3o_de_cursos_e_a\u00e7\u00f5es_turmas",
-      "target": "docs_fluxos_operacionais_v9_narrativa_do_fluxo",
-      "confidence_score": 1.0
+      "target": "docs_fluxos_operacionais_v9_narrativa_do_fluxo"
     },
     {
       "relation": "contains",
@@ -10495,9 +10814,9 @@
       "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_fluxos_operacionais_v9_3_fluxo_operacional_2_inscri\u00e7\u00e3o_dos_interessados_candidatura",
-      "target": "docs_fluxos_operacionais_v9_narrativa_do_fluxo_59",
-      "confidence_score": 1.0
+      "target": "docs_fluxos_operacionais_v9_narrativa_do_fluxo_59"
     },
     {
       "relation": "contains",
@@ -10505,129 +10824,9 @@
       "source_file": "devops/v9/docs/fluxos-operacionais-v9.md",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_fluxos_operacionais_v9_4_fluxo_operacional_3_sele\u00e7\u00e3o_e_matr\u00edcula_dos_inscritos",
-      "target": "docs_fluxos_operacionais_v9_narrativa_do_fluxo_77",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "devops_v9_docs_apex_implementation_v9_md",
-      "target": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "devops_v9_docs_apex_implementation_v9_md",
-      "target": "docs_apex_implementation_v9_planeamento_de_constru\u00e7\u00e3o_apex_sguf_v9"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
-      "target": "docs_apex_implementation_v9_1_vis\u00e3o_geral"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
-      "target": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
-      "target": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L57",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_apex_implementation_v9_estrat\u00e9gia_de_desenvolvimento_e_deploy_com_apexlang_sguf_v9",
-      "target": "docs_apex_implementation_v9_4_pr\u00f3ximos_passos_de_execu\u00e7\u00e3o"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
-      "target": "docs_apex_implementation_v9_codeblock_1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
-      "target": "docs_apex_implementation_v9_passo_1_edi\u00e7\u00e3o_e_gera\u00e7\u00e3o_local_apx"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_apex_implementation_v9_2_fluxo_de_trabalho_do_agente_de_ia",
-      "target": "docs_apex_implementation_v9_passo_2_sincroniza\u00e7\u00e3o_e_deploy"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L37",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
-      "target": "docs_apex_implementation_v9_m\u00f3dulo_1_funda\u00e7\u00e3o_mapeamento_inicial_apx"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
-      "target": "docs_apex_implementation_v9_m\u00f3dulo_2_p\u00e1ginas_de_gest\u00e3o_de_candidatos_e_entidades"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "devops/v9/docs/apex-implementation-v9.md",
-      "source_location": "L49",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_apex_implementation_v9_3_planeamento_da_infraestrutura_sguf_v9",
-      "target": "docs_apex_implementation_v9_m\u00f3dulo_3_automatiza\u00e7\u00f5es_e_integra\u00e7\u00f5es"
+      "target": "docs_fluxos_operacionais_v9_narrativa_do_fluxo_77"
     },
     {
       "relation": "contains",
@@ -20961,5 +21160,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "52494662f4700839a48d6e638b6283334a303d2d"
+  "built_at_commit": "847d16b6423d554f475df678cae7aefeebffd1c7"
 }

@@ -455,8 +455,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\apex-implementation-v9.md": {
-    "mtime": 1784126604.0455136,
-    "ast_hash": "f4effe6e149bd0f9ce462e8535050bbf",
+    "mtime": 1784128621.828301,
+    "ast_hash": "6365cdd9d08d763936b4964cc37ed59b",
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\automacao-comunicacoes.md": {
@@ -605,7 +605,7 @@
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\graphify-out\\converted\\Modelo_de_Dados_a65d3f01.md": {
-    "mtime": 1784127750.6577163,
+    "mtime": 1784128631.6273854,
     "ast_hash": "e4e9e4d430dd80fccdbde5e8340e28aa",
     "semantic_hash": ""
   },
@@ -675,8 +675,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\.ai-session.json": {
-    "mtime": 1784127743.957761,
-    "ast_hash": "38cb80c1aeb16d5095af50bdd98740be",
+    "mtime": 1784128628.9487493,
+    "ast_hash": "096353377bc28d89206fe6778995fd57",
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\diagrama-esquema-v9.md": {
@@ -687,6 +687,11 @@
   "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\fluxos-operacionais-v9.md": {
     "mtime": 1784127730.8445714,
     "ast_hash": "d566677c0deb32cea9647b054508f07a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\duvidas-planeamento-v9.md": {
+    "mtime": 1784128619.5801475,
+    "ast_hash": "988b2e843909e7cce30d743f2df72897",
     "semantic_hash": ""
   }
 }
