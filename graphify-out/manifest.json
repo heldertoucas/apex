@@ -500,8 +500,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\AGENTS.md": {
-    "mtime": 1784120854.6692388,
-    "ast_hash": "b37504d285a0b5e45be24b7431557dc2",
+    "mtime": 1784126837.5128446,
+    "ast_hash": "31b6faa5a5b523fff4b0fc02ad75a20a",
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\OPENCODE.md": {
@@ -605,7 +605,7 @@
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\graphify-out\\converted\\Modelo_de_Dados_a65d3f01.md": {
-    "mtime": 1784126623.2396486,
+    "mtime": 1784127750.6577163,
     "ast_hash": "e4e9e4d430dd80fccdbde5e8340e28aa",
     "semantic_hash": ""
   },
@@ -675,8 +675,18 @@
     "semantic_hash": ""
   },
   "C:\\Users\\helder.toucas\\Dev\\apex\\.ai-session.json": {
-    "mtime": 1784126616.1238952,
-    "ast_hash": "7431ba840fa0fabb8b8b6a590184be45",
+    "mtime": 1784127743.957761,
+    "ast_hash": "38cb80c1aeb16d5095af50bdd98740be",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\diagrama-esquema-v9.md": {
+    "mtime": 1784127405.9675016,
+    "ast_hash": "df733e160e20e0c7035bff8c13e17e27",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\helder.toucas\\Dev\\apex\\devops\\v9\\docs\\fluxos-operacionais-v9.md": {
+    "mtime": 1784127730.8445714,
+    "ast_hash": "d566677c0deb32cea9647b054508f07a",
     "semantic_hash": ""
   }
 }

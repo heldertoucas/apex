@@ -58,3 +58,8 @@ Para iniciar a fase de planeamento e atualização utilizando APEXlang, dividire
 1. **Configuração de Workspace Local:** Validar a diretoria padrão dos ficheiros `.apx` da aplicação SGUF v9.
 2. **Setup do SQLcl / Sync:** Confirmar parâmetros de ligação da conta APEX ativa para validação de comandos de compilação automáticos.
 3. **Escrita da App Base:** O agente de IA gerará o esqueleto inicial em APEXlang.
+
+---
+
+## 5. Dúvidas e Explorações Registadas
+As dúvidas identificadas sobre as integrações externas (SIGO, Portal Futuro Digital, Quizzes, Certificação e Estados) foram catalogadas e são geridas dinamicamente em [[devops/v9/docs/duvidas-planeamento-v9.md]]. Estas serão progressivamente convertidas em tarefas técnicas ao longo desta fase de planeamento.

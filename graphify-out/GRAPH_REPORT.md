@@ -1,16 +1,16 @@
 # Graph Report - apex  (2026-07-15)
 
 ## Corpus Check
-- 135 files · ~302,459 words
+- 137 files · ~270,216 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1133 nodes · 1053 edges · 91 communities (85 shown, 6 thin omitted)
+- 1146 nodes · 1064 edges · 93 communities (86 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `238cc703`
+- Built from commit: `52494662`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -99,6 +99,8 @@
 - [[_COMMUNITY_Community 88|Community 88]]
 - [[_COMMUNITY_Community 89|Community 89]]
 - [[_COMMUNITY_Community 90|Community 90]]
+- [[_COMMUNITY_Community 91|Community 91]]
+- [[_COMMUNITY_Community 92|Community 92]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `F. Tabelas de Lookup (Domínios)` - 17 edges
@@ -115,7 +117,7 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (91 total, 6 thin omitted)
+## Communities (93 total, 7 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.04
@@ -429,25 +431,29 @@ Nodes (5): code:bash (LOCAL_PATH=$(graphify clone <github-url> [--branch <branch
 Cohesion: 0.50
 Nodes (3): code:bash (GRAPHIFY_WHISPER_MODEL=base  # or whatever --whisper-model t), graphify reference: transcribe video and audio, Step 2.5 - Transcribe video / audio files (only if video files detected)
 
+### Community 91 - "Community 91"
+Cohesion: 0.20
+Nodes (9): 1. Arquitetura do Modelo de Dados (SGUF v9), 2. Fluxo Operacional 1: Criação de Cursos e Ações (Turmas), 3. Fluxo Operacional 2: Inscrição dos Interessados (Candidatura), 4. Fluxo Operacional 3: Seleção e Matrícula dos Inscritos, Fluxos Operacionais e Modelo de Dados: SGUF v9, Narrativa do Fluxo, Narrativa do Fluxo, Narrativa do Fluxo (+1 more)
+
 ## Knowledge Gaps
-- **708 isolated node(s):** `1. Visão Geral`, `code:mermaid (graph TD)`, `Passo 1: Edição e Geração Local (`.apx`)`, `Passo 2: Sincronização e Deploy`, `Módulo 1: Fundação & Mapeamento Inicial (.apx)` (+703 more)
+- **713 isolated node(s):** `Product Vision`, `Tech Stack`, `Architecture`, `Build & Run Commands`, `Code Standards` (+708 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `3. Diagrama de Esquema` connect `Community 53` to `Community 48`, `Community 18`, `Community 54`, `Community 59`, `Community 60`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **Why does `3. Diagrama de Esquema` connect `Community 68` to `Community 64`, `Community 65`, `Community 49`, `Community 50`, `Community 19`, `Community 55`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **What connects `1. Visão Geral`, `code:mermaid (graph TD)`, `Passo 1: Edição e Geração Local (`.apx`)` to the rest of the system?**
-  _708 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `F. Tabelas de Lookup (Domínios)` connect `Community 18` to `Community 53`?**
+  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+- **What connects `Product Vision`, `Tech Stack`, `Architecture` to the rest of the system?**
+  _713 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.046511627906976744 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.058823529411764705 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
