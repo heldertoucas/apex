@@ -1,16 +1,16 @@
-# Graph Report - apex  (2026-06-29)
+# Graph Report - apex  (2026-07-15)
 
 ## Corpus Check
-- 121 files · ~118,758 words
+- 134 files · ~127,108 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 995 nodes · 929 edges · 77 communities
+- 1122 nodes · 1042 edges · 91 communities (85 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e5052344`
+- Built from commit: `559fad1b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -85,6 +85,20 @@
 - [[_COMMUNITY_Community 67|Community 67]]
 - [[_COMMUNITY_Community 68|Community 68]]
 - [[_COMMUNITY_Community 76|Community 76]]
+- [[_COMMUNITY_Community 77|Community 77]]
+- [[_COMMUNITY_Community 78|Community 78]]
+- [[_COMMUNITY_Community 79|Community 79]]
+- [[_COMMUNITY_Community 80|Community 80]]
+- [[_COMMUNITY_Community 81|Community 81]]
+- [[_COMMUNITY_Community 82|Community 82]]
+- [[_COMMUNITY_Community 83|Community 83]]
+- [[_COMMUNITY_Community 84|Community 84]]
+- [[_COMMUNITY_Community 85|Community 85]]
+- [[_COMMUNITY_Community 86|Community 86]]
+- [[_COMMUNITY_Community 87|Community 87]]
+- [[_COMMUNITY_Community 88|Community 88]]
+- [[_COMMUNITY_Community 89|Community 89]]
+- [[_COMMUNITY_Community 90|Community 90]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `F. Tabelas de Lookup (Domínios)` - 17 edges
@@ -96,12 +110,12 @@
 7. `**3\. Entidades Operacionais**` - 12 edges
 8. `Guia de Implementação: Melhorias de UX e Feedback (V8)` - 12 edges
 9. `TODO: Processamento de Feedback (V8)` - 12 edges
-10. `Guia Mestre de Implementação: Academia Digital (SGUF v7.0)` - 11 edges
+10. `What You Must Do When Invoked` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (77 total, 0 thin omitted)
+## Communities (91 total, 6 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.04
@@ -367,10 +381,6 @@ Nodes (5): 13a. `Staging_Importacao` (Staging_Importacao), 14. `Itens_Dossier_Tu
 Cohesion: 0.40
 Nodes (5): 5. `Entidades` (Entidades), 6. `Papeis_Entidade` (Papeis_Entidade), 6a. `Listas_Mailing` (Listas_Mailing), 6b. `Entidade_Listas` (Entidade_Listas), B. Domínio: Pessoas e Entidades (PEOPLE)
 
-### Community 66 - "Community 66"
-Cohesion: 0.50
-Nodes (3): Memory Protocol, Project Intelligence Memory, Vault Context
-
 ### Community 67 - "Community 67"
 Cohesion: 0.50
 Nodes (3): Execution Plan, Objective, Project Plan: apex
@@ -383,19 +393,56 @@ Nodes (4): 12. `Avaliacoes_Modulo` (Avaliacoes_Modulo), 13. `Badges_Conquistados
 Cohesion: 0.50
 Nodes (3): Execution Plan, Objective, Project Plan: apex
 
+### Community 77 - "Community 77"
+Cohesion: 0.05
+Nodes (43): code:block1 (/graphify                                             # full), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash (mkdir -p graphify-out), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash (graphify export obsidian), code:bash (graphify export html  # auto-aggregates to community view if) (+35 more)
+
+### Community 78 - "Community 78"
+Cohesion: 0.12
+Nodes (15): code:bash (graphify export wiki), code:bash (graphify export neo4j), code:bash (graphify export neo4j --push bolt://localhost:7687 --user ne), code:bash (graphify export svg), code:bash (graphify export graphml), code:bash (python3 -m graphify.serve graphify-out/graph.json), code:json ({), code:bash (graphify benchmark) (+7 more)
+
+### Community 79 - "Community 79"
+Cohesion: 0.14
+Nodes (13): code:bash ($(cat graphify-out/.graphify_python) -c "), code:block2 (Query expanded to (from graph vocab, N tokens): [token1, tok), code:bash (graphify query "QUESTION"), code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result), code:bash (graphify path "NODE_A" "NODE_B"), code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result), code:bash (graphify explain "NODE_NAME"), code:bash ($(cat graphify-out/.graphify_python) -m graphify save-result) (+5 more)
+
+### Community 80 - "Community 80"
+Cohesion: 0.18
+Nodes (10): code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash (if [ ! -f graphify-out/.graphify_extract.json ]; then), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash (graphify cluster-only .), For --cluster-only (+2 more)
+
+### Community 81 - "Community 81"
+Cohesion: 0.22
+Nodes (8): Architecture, Build & Run Commands, Code Standards, graphify, Product Vision, Project Instructions: apex, Quality Gates, Tech Stack
+
+### Community 82 - "Community 82"
+Cohesion: 0.29
+Nodes (6): code:bash (graphify hook install    # install), code:bash (graphify claude install), code:bash (graphify claude uninstall  # remove the section), For git commit hook, For native CLAUDE.md integration, graphify reference: commit hook and native CLAUDE.md integration
+
+### Community 83 - "Community 83"
+Cohesion: 0.33
+Nodes (5): code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash (python3 -m graphify.watch INPUT_PATH --debounce 3), For /graphify add, For --watch, graphify reference: add a URL and watch a folder
+
+### Community 84 - "Community 84"
+Cohesion: 0.33
+Nodes (5): code:bash (LOCAL_PATH=$(graphify clone <github-url> [--branch <branch>]), code:bash (# Clone each repo, run the full pipeline on each, then merge), code:bash (graphify extract ./core/     # → ./core/graphify-out/graph.j), graphify reference: GitHub clone and cross-repo merge, Step 0 - Clone GitHub repo(s) (only if a GitHub URL was given)
+
+### Community 85 - "Community 85"
+Cohesion: 0.50
+Nodes (3): code:bash (GRAPHIFY_WHISPER_MODEL=base  # or whatever --whisper-model t), graphify reference: transcribe video and audio, Step 2.5 - Transcribe video / audio files (only if video files detected)
+
 ## Knowledge Gaps
-- **629 isolated node(s):** `Objective`, `Execution Plan`, `Memory Protocol`, `Vault Context`, `Objective` (+624 more)
+- **700 isolated node(s):** `graphify`, `code:block1 (/graphify                                             # full)`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)`, `code:bash (# Detect the correct Python interpreter (handles uv tool, pi)` (+695 more)
   These have ≤1 connection - possible missing edges or undocumented components.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `3. Diagrama de Esquema` connect `Community 68` to `Community 64`, `Community 65`, `Community 49`, `Community 50`, `Community 19`, `Community 55`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **Why does `3. Diagrama de Esquema` connect `Community 53` to `Community 48`, `Community 18`, `Community 54`, `Community 59`, `Community 60`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **What connects `Objective`, `Execution Plan`, `Memory Protocol` to the rest of the system?**
-  _629 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `F. Tabelas de Lookup (Domínios)` connect `Community 18` to `Community 53`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **What connects `graphify`, `code:block1 (/graphify                                             # full)`, `What graphify is for` to the rest of the system?**
+  _700 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
