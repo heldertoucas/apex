@@ -1,8 +1,3 @@
----
-last_verified: 2026-07-21
-project: apex
----
-
 # Project Instructions: apex
 
 ## Product Vision
