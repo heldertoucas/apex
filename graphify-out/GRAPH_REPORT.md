@@ -1,7 +1,7 @@
-# Graph Report - apex  (2026-07-15)
+# Graph Report - apex  (2026-07-21)
 
 ## Corpus Check
-- 138 files · ~266,493 words
+- 138 files · ~268,773 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `847d16b6`
+- Built from commit: `539d4f1e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -441,7 +441,7 @@ Cohesion: 0.20
 Nodes (9): 1. Registo de Dúvidas & Análise Técnica, 2. Roadmap de Resolução (Tarefas), ❓ Dúvida 1: Ligação ao SIGO (BD Atual do Ministério da Educação), ❓ Dúvida 2: Integração do Processo Atual de Certificação, ❓ Dúvida 3: Ligação aos Quizzes de Avaliação do Futuro Digital, ❓ Dúvida 4: Ligação ao Registo de Avaliações do Portal Futuro Digital, ❓ Dúvida 5: Funcionamento do Estado do Participante, ❓ Dúvida 6: Melhoria do Registo de Presenças e Comunicações por E-Mail (+1 more)
 
 ## Knowledge Gaps
-- **721 isolated node(s):** `1. Visão Geral`, `code:mermaid (graph TD)`, `Passo 1: Edição e Geração Local (`.apx`)`, `Passo 2: Sincronização e Deploy`, `Módulo 1: Fundação & Mapeamento Inicial (.apx)` (+716 more)
+- **721 isolated node(s):** `Product Vision`, `Tech Stack`, `Architecture`, `Build & Run Commands`, `Code Standards` (+716 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -452,7 +452,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **Why does `3. Diagrama de Esquema` connect `Community 68` to `Community 64`, `Community 65`, `Community 49`, `Community 50`, `Community 19`, `Community 55`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **What connects `1. Visão Geral`, `code:mermaid (graph TD)`, `Passo 1: Edição e Geração Local (`.apx`)` to the rest of the system?**
+- **What connects `Product Vision`, `Tech Stack`, `Architecture` to the rest of the system?**
   _721 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._

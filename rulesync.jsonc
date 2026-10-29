@@ -4,14 +4,17 @@
     "antigravity-cli",
     "claudecode",
     "codexcli",
-    "opencode"
+    "opencode",
+    "omp"
   ],
   "features": [
-    "rules"
+    "rules",
+    "mcp",
+    "commands",
+    "skills",
+    "subagents",
+    "hooks",
+    "permissions"
   ],
-  "sources": [
-    {
-      "path": "C:/Users/helder.toucas/Dev/obsidian-ht/08-system/081-agents/.rulesync/domain-rules/apex"
-    }
-  ]
+  "delete": true
 }
